@@ -46,7 +46,6 @@ is located in [sql_/team121_p3_schema.sql](sql_/team121_p3_schema.sql). To see c
 The relation for the previous schema is located on: [archive/Phase_2/team121_p2_eer2rel.pdf](archive/Phase_2/team121_p2_eer2rel.pdf), while the relation for the new schema is located on: [docs/team121_p3_updatedEerRel.pdf](docs/team121_p3_updatedEerRel.pdf).  
 
 ## Authors
-* __Ding Yuan__  email: [dyuan47@gatech.edu](mailto:dyuan47@gatech.edu)
 * __Om Sachdev__  email: [osachdev3@gatech.edu](mailto:osachdev3@gatech.edu)
 * __Yinan Yang__  email: [yyang601@gatech.edu](mailto:yyang601@gatech.edu)
 * __Luis Humberto Orozco Cabrera__  email: [lcabrera32@gatech.edu](lcabrera32@gatech.edu)
