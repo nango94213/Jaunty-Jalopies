@@ -1,5 +1,3 @@
-# cs6400-2021-03-Team121
-
 ## Requirements
 You will have to have docker installed in your computer to start up application.  
 
