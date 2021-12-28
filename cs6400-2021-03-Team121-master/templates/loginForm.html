@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="submission-form-general submission-form-main-menu" id="submission-form-login">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <div class="submission-title-general submission-title-main-menu">
+        <h4>Login</h4>
+      </div> 
+      
+      <form action="/login" method="post"> 
+        <div class="form-group">
+          <label for="userInput">User</label>
+          <input class="form-control" id="userInput" name="user_" aria-describedby="emailHelp" placeholder="Enter username" value="{{username}}"/>
+          <small id="emailHelp" class="form-text text-muted">Only for Employees of Jaunty Jalopies</small>
+        </div>
+        <div class="form-group">
+          <label for="passwordInput">Password</label>
+          <input type="password" class="form-control" id="passwordInput" placeholder="Password" name="password_"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

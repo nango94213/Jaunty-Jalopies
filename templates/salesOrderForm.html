@@ -1,0 +1,222 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ vin }}
+<!-- TODO: Add your html structure here -->
+<form action="/sell" method="post">
+    <br>
+    <div class="container mw-100">
+        <div class="row justify-content-center">
+            <div class="col col-12 col-xl-4 border border-secondary">
+                <br>
+                
+                    <div class="form-group">
+                        <label for="vinInputText1">VIN number</label>
+                        <input class="form-control" id="vinInputText1" name="vin" placeholder="{{vehicle['vin']}}" value="{{vehicle['vin']}}" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="descriptionInputText1">Description</label>
+                        <input class="form-control" id="descInputText1" name="description" placeholder="{{vehicle['description']}}" value="{{vehicle['description']}}" readonly>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="invoicePriceInputText1">Invoice Price</label>
+                        <input class="form-control" id="invoicePriceInputText1" name="invoicePrice" placeholder="{{vehicle['invoice_price']}}" value="{{vehicle['invoice_price']}}" readonly>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="listPriceInputText1">List Price (recommended sale price)</label>
+                        <input class="form-control" id="listPriceInputText1" name="listPrice" placeholder="{{vehicle['list_price']}}" value="{{vehicle['list_price']}}" readonly>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="colorsInputText1">Color(s)</label>
+                        <input class="form-control" id="colorsInputText1" name="colors" placeholder="{{vehicle['colors']}}" value="{{vehicle['colors']}}" readonly>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="vehicleTypeInputText1">Vehicle Type</label>
+                        <input class="form-control" id="vehicleTypeInputText1" name="vehicleType" placeholder="{{vehicle['type']}}" value="{{vehicle['type']}}" readonly>
+                    </div>
+                    <br>
+            </div>
+            <div class="col col-12 col-xl-4 border border-secondary">
+                <br>
+                <div class="form-group">
+                    <label for="vinInputText1">Customer ID</label>
+                    {% if 'success' in customer %}
+                        <input class="form-control" id="vinInputText1" name="customerID" aria-describedby="customerIDHelp" placeholder="{{customer['id']}}" value="{{customer['id']}}" readonly>
+                    {% else %}
+                        <input class="form-control" id="vinInputText1" name="customerID" aria-describedby="customerIDHelp" value="{{customer['id']}}">
+                        {% if 'customer_id' in errors %}
+                        <br>
+                        <div class="alert alert-danger" role="alert">
+                            {{ errors.customer_id }}
+                        </div>   
+                        {% endif %}
+                    {% endif %}
+                </div>
+                
+                {% if 'success' in customer %}
+                    {% if customer['type'] == 'Individual' %}
+                        <div class="form-group">
+                            <label for="name">{{customer['type']}} Account</label>
+                            <input class="form-control" id="nameId" name="name" placeholder="{{customer['firstname']}} {{customer['lastname']}}" readonly>
+                        </div>
+                    {% elif customer['type'] == 'Business' %}
+                        <div class="form-group">
+                            <label for="name">{{customer['type']}} Account</label>
+                            <input class="form-control" id="nameId" name="name" placeholder="{{customer['person_name']}}" value="{{customer['person_name']}}" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="position">Title</label>
+                            <input class="form-control" id="positionId" name="position" placeholder="{{customer['person_title']}}" value="{{customer['person_title']}}" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input class="form-control" id="companyId" name="company" placeholder="{{customer['business_name']}}" value="{{customer['business_name']}}" readonly>
+                        </div>
+                    {% endif %}
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input class="form-control" id="phoneNumberId" name="phoneNumber" placeholder="{{customer['phone_number']}}" value="{{customer['phone_number']}}" readonly>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input class="form-control" id="emailId" name="email" placeholder="{{customer['email_address']}}" value="{{customer['email_address']}}" readonly>
+                    </div>
+                    <br>
+                {% else %}
+                    <div class="form-group displayedWhenAddRadioSelected" style="display:none">
+                        <label for="accountTypeFormControlSelect1">Account Type</label>
+                        <select class="form-control" id="accountTypeFormControlSelect1" name="accountType">
+                        <option></option>
+                        <option>Business</option>   
+                        <option>Individual</option>
+                        </select>
+                    </div>
+                    <div class="individual hideWhenFindRadioSelected">
+                        <div class="form-group">
+                            <label for="firstnameFieldId">Firstname</label>
+                            <input class="form-control" id="firstnameFieldId" name="add_firstname" value="{{customer['add_firstname']}}">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastNameFieldId">Lastname</label>
+                            <input class="form-control" id="lastNameFieldId" name="add_lastname" value="{{customer['add_lastname']}}">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="addreessIndividualId">Address</label>
+                            <input class="form-control" id="addreessIndividualId" name="add_address_individual" value="{{customer['add_address_individual']}}">
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumberIndividualId">Phone Number</label>
+                            <input class="form-control" id="phoneNumberIndividualId" name="add_phoneNumber_individual" value="{{customer['add_phone_number_individual']}}">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="emailIndividualId">Email Address</label>
+                            <input class="form-control" type="email" id="emailIndividualId" name="add_email_individual" value="{{customer['add_email_individual']}}">
+                        </div>
+                    </div>
+                    <div class="business hideWhenFindRadioSelected" id="businessFormId">
+                        <div class="form-group">
+                            <label for="businessNameFieldId">Business Name</label>
+                            <input class="form-control" id="businessNameFieldId" name="add_businessName" value="{{customer['add_business_name']}}">
+                        </div>
+                        <div class="form-group">
+                            <label for="primaryContactNameFieldId">Primary Contact Name</label>
+                            <input class="form-control" id="primaryContactNameFieldId" name="add_primaryContactName" value="{{customer['add_primary_contact_name']}}">
+                        </div>
+                        <div class="form-group">
+                            <label for="primaryContactTitleFieldId">Primary Contact Title</label>
+                            <input class="form-control" id="primaryContactTitleFieldId" name="add_primaryContactTitle" value="{{customer['add_primary_contact_title']}}">
+                        </div>
+                        <div class="form-group">
+                            <label for="addAddressBusinessId">Address</label>
+                            <input class="form-control" id="addAddressBusinessId" name="add_address_business" value="{{customer['add_address_business']}}">
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumberBusinessId">Phone Number</label>
+                            <input class="form-control" id="phoneNumberBusinessId" name="add_phoneNumber_business" value="{{customer['add_phone_number_business']}}">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="emailFieldBusiness">Email Address</label>
+                            <input class="form-control" type="email" id="emailFieldBusiness" name="add_email_business" value="{{customer['add_email_business']}}">
+                        </div>
+                    </div>
+                    {% if ('add_customer' in errors) and (errors['add_customer']|length)%}
+                        <div class="alert alert-danger" role="alert">
+                        {{ errors.add_customer }}
+                        </div>   
+                    {% endif %}
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" onclick="javascript:buttonClassCheck();" name="buttonsRadios" id="findButton" value="find" checked>
+                        <label class="form-check-label" for="inlineRadio1">
+                            <button name="customerButton" value="find" type="submit" class="btn btn-outline-primary displayedWhenFindRadioSelected">Find</button> 
+                            <span class="text-primary displayedWhenAddRadioSelected" style="display:none">Find</span>
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" onclick="javascript:buttonClassCheck();" name="buttonsRadios" id="addButton" value="add">
+                        <label class="form-check-label" for="inlineRadio2">
+                            <button name="customerButton" value="add" type="submit" class="btn btn-outline-dark displayedWhenAddRadioSelected" style="display:none">Add</button>
+                            <span class="text-dark displayedWhenFindRadioSelected">Add</span>
+                        </label>
+                    </div>
+                    <br>
+                    <br>
+                {% endif %}
+            </div>
+            <div class="w-100"></div>
+            {% if 'success' in customer %}
+                <div class="col col-12 col-xl-8 border border-secondary bg-dark">
+                    <br>
+                    <div class="form-group d-none d-print-none">
+                        <input class="form-control " name="successCustomerType" value="{{customer['type']}}"/>
+                        <input class="form-control " name="successCustomerAddress" value="{{customer['address']}}"/>
+                        <input class="form-control " name="successCustomerPhoneNumber" value="{{customer['phone_number']}}"/>
+                        <input class="form-control " name="successCustomerEmailAddress" value="{{customer['email_address']}}"/>
+                        <input class="form-control " name="successCustomerFirstname" value="{{customer['firstname']}}"/>
+                        <input class="form-control " name="successCustomerLastname" value="{{customer['lastname']}}"/>
+                        <input class="form-control " name="successCustomerBusinessName" value="{{customer['business_name']}}"/>
+                        <input class="form-control " name="successCustomerPersonName" value="{{customer['person_name']}}"/>
+                        <input class="form-control " name="successCustomerPersonTitle" value="{{customer['person_title']}}"/>
+                    </div>
+                    <ul class="nav justify-content-start">
+                        <li class="nav-item input-large">
+                            <div>
+                                <input size="23" class="form-control justify-content-start border-dark" id="dateSoldId" name="saleDate" placeholder="Sale Date (YYYY-MM-DD)" value="{{sale['sale_date']}}">
+                            </div>
+                        </li>
+                        <li class="nav-item input-large">
+                            <div>
+                                <input size="24" class="form-control justify-content-start border-dark" id="finalPriceId" name="salePrice" placeholder="Sale Price ({{vehicle['lowest_price']}} min):" value="{{sale['sale_price']}}">
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <button name="salesButton" value="sale" type="submit" class="btn btn-outline-light">Confirm Transaction</button>
+                        </li>
+                    </ul>
+                    {% if 'sale_price' in errors %}
+                        <div class="alert alert-danger" role="alert">
+                            {{ errors.sale_price }}
+                        </div>   
+                    {% endif %}
+                    {% if 'sale_date' in errors %}
+                        <div class="alert alert-danger" role="alert">
+                            {{ errors.sale_date }}
+                        </div>   
+                    {% endif %}
+                    <br>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</form>
+{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src="{{url_for('static', filename='js/newCustomerForm.js')}}"></script>
+{% endblock scripts %}

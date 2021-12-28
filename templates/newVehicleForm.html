@@ -1,0 +1,185 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<div class="container mw-100">
+    <div class="row justify-content-center">
+        <div class="col col-12 col-xl-4 border border-secondary">
+            <br>
+            <form action="/vehicle" method="post">
+                <div class="form-group">
+                    <label for="vinInputText1">VIN number</label>
+                    <input class="form-control" id="vinInputText1" name=vinInputText1 value="{{entered_values['vin']}}">
+                </div>
+                {% if 'errors_vin' in errors %}
+                    <div class="alert alert-danger" role="alert">
+                    {{ errors.errors_vin }}
+                    </div>   
+                {% endif %}
+                <div class="form-group">
+                    <label for="descriptionInputText1">Description</label>
+                    <input class="form-control" id="descInputText1" name=descriptionInputText1 value="{{entered_values['description']}}">
+                </div>
+                {% if 'errors_description' in errors %}
+                    <div class="alert alert-danger" role="alert">
+                    {{ errors.errors_description }}
+                    </div>   
+                {% endif %}
+                <div class="form-group">
+                    <label for="invoicePriceInputText1">Invoice Price</label>
+                    <input class="form-control" id="invoicePriceInputText1" name=invoicePInputText1 value="{{entered_values['invoice_price']}}">
+                </div>
+                {% if 'errors_invoice_price' in errors %}
+                    <div class="alert alert-danger" role="alert">
+                    {{ errors.errors_invoice_price }}
+                    </div>   
+                {% endif %}
+                <div class="form-group">
+                    <label for="modelYearInputText1">Model Year</label>
+                    <input class="form-control" id="modelYearInputText1" name=yearInputText1 value="{{entered_values['model_year']}}">
+                </div>
+                {% if 'errors_model_year' in errors %}
+                    <div class="alert alert-danger" role="alert">
+                    {{ errors.errors_model_year }}
+                    </div>   
+                {% endif %}
+                <div class="form-group">
+                    <label for="modelNameInputText1">Model Name</label>
+                    <input class="form-control" id="modelNameInputText1" name=modelNInputText1 value="{{entered_values['model_name']}}">
+                </div>
+                {% if 'errors_model_name' in errors %}
+                    <div class="alert alert-danger" role="alert">
+                    {{ errors.errors_model_name }}
+                    </div>   
+                {% endif %}
+                <div class="form-group">
+                    <label for="vehicleTypeFormControlSelect1">Manufacturer</label>
+                    <select class="form-control" id="manufacturerFormControlSelect1" name="manufacturerSelect1">
+                      <option></option>
+                      {% for manufacturer in data['manufacturers'] %}
+                      <option>{{manufacturer}}</option>                   
+                      {% endfor %}
+                    </select>
+                </div>
+                {% if 'errors_manufacturer' in errors %}
+                    <div class="alert alert-danger" role="alert">
+                    {{ errors.errors_manufacturer }}
+                    </div>   
+                {% endif %}
+                <div class="form-group">
+                    <label for="colorsInputText1">Color(s)</label>
+                    <input class="form-control" id="colorsInputText1" aria-describedby="colorsHelp" name="colorsTextBox" value="{{entered_values['colors']}}">
+                    <small id="colorsHelp" class="form-text text-muted">If more than one color, please enter comma separated.</small>
+                </div>
+                {% if 'errors_colors' in errors %}
+                    <div class="alert alert-danger" role="alert">
+                    {{ errors.errors_colors }}
+                    </div>   
+                {% endif %}
+                <div class="form-group">
+                    <label for="vehicleTypeFormControlSelect1">Vehicle type</label>
+                    <select class="form-control" id="vehicleTypeFormControlSelect1" name="vehicleTypeSelect1">
+                      <option></option>
+                      {% for type_ in data['vehicle_types'] %}
+                      <option>{{type_}}</option>                   
+                      {% endfor %}
+                    </select>
+                </div>
+                {% if 'errors_vehicle_type' in errors %}
+                    <div class="alert alert-danger" role="alert">
+                    {{ errors.errors_vehicle_type }}
+                    </div>   
+                {% endif %}
+                {% if 'errors_cargo_capacity' in errors %}
+                    <div class="alert alert-danger" role="alert">
+                    {{ errors.errors_cargo_capacity }}
+                    </div>   
+                {% endif %}
+                <div class="SUV" id="SUVID">
+                    <div class="form-group">
+                        <label for="numberOfCupholdersFormControlSelect1">Number of Cupholders</label>
+                        <select class="form-control" id="numberOfCupholdersFormControlSelect1" name="numberOfCupholdersTypeSelect1">
+                          {% for number in data['number_of_cup_holders'] %}
+                          <option>{{number}}</option>                   
+                          {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="driveTrainTypeFormControlSelect1">Drivetrain Type</label>
+                        <select class="form-control" id="driveTrainTypeFormControlSelect1" name="driveTrainTypeSelect1">
+                          {% for drivetrain_type in data['drivetrain_types'] %}
+                          <option>{{drivetrain_type}}</option>                   
+                          {% endfor %}
+                        </select>
+                    </div>
+                </div>
+                <div class="Convertible" id="ConvertibleID">
+                    <div class="form-group">
+                        <label for="backSeatCountFormControlSelect1">Back Seat Count</label>
+                        <select class="form-control" id="backSeatCountFormControlSelect1" name="backSeatCountTypeSelect1">
+                          {% for number in data['back_seat_count'] %}
+                          <option>{{number}}</option>                   
+                          {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="roofTypeFormControlSelect1">Roof Type</label>
+                        <select class="form-control" id="roofTypeFormControlSelect1" name="roofTypeSelect1">
+                          {% for roof_type in data['roof_types'] %}
+                          <option>{{roof_type}}</option>                   
+                          {% endfor %}
+                        </select>
+                    </div>
+                </div>
+                <div class="Car" id="CarID">
+                    <div class="form-group">
+                        <label for="numberOfDoorsFormControlSelect1">Number of Doors</label>
+                        <select class="form-control" id="numberOfDoorsFormControlSelect1" name="numberDoorsSelect1">
+                          {% for number in data['number_of_doors'] %}
+                          <option>{{number}}</option>                   
+                          {% endfor %}
+                        </select>
+                    </div>
+                </div> 
+                <div class="Van" id="VanID">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="hasDriverSideDoorCheckbox1" value="true" name="hasDriverSideDoor">
+                        <label class="form-check-label" for="hasDriverSideDoorCheckbox1">Has Driver Side Door</label>
+                    </div>
+                </div>
+                <div class="Truck" id="TruckID">
+                    <div class="form-group">
+                        <label for="cargoCapacityInputText1">Cargo Capacity</label>
+                        <input class="form-control" id="cargoCapacityInputText1" aria-describedby="cargoCapacityHelp" name=cargoCapInputText1 value="{{entered_values['cargo_capacity']}}">
+                        <small id="cargoCapacityHelp" class="form-text text-muted">Decimal number in pounds.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="cargoCoverTypeFormControlSelect1">Cargo Cover Type</label>
+                        <select class="form-control" id="cargoCoverTypeFormControlSelect1" name="cargoCoverTypeSelect1">
+                          {% for type_ in data['cargo_cover_types'] %}
+                          <option>{{type_}}</option>                   
+                          {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="noRearAxlesFormControlSelect1">Number of Rear Axles</label>
+                        <select class="form-control" id="noRearAxlesFormControlSelect1" name="noRearAxlesSelect1">
+                          {% for number in data['no_rear_axles'] %}
+                          <option>{{number}}</option>                   
+                          {% endfor %}
+                        </select>
+                    </div>
+                </div> 
+
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <br>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src="{{url_for('static', filename='js/newVehicleform.js')}}"></script>
+{% endblock scripts %}

@@ -1,0 +1,47 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+    <div class="mx-auto col-12 col-xl-8">
+        <h1 class="justify-content-center">{{data['title']}}</h1>
+    </div>
+    <div class="mx-auto col-12 col-xl-12"></div>
+    <div class="mx-auto col-12 col-xl-8">
+        <div class="table-responsive-sm table-hover">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Sale Date</th>
+                <th scope="col">Invoice Price</th>
+                <th scope="col">Sold Price</th>
+                <th scope="col">Sales Person</th>
+                <th scope="col">Price Ratio</th>
+                <th scope="col">Customer Name</th>
+            </tr>
+            </thead>
+            <tbody>
+                {% if data['results']|length %}
+                    {% for item in data['results'] %}
+                        <tr class='{{ item["class"] }}'>
+                            <td>{{ item['saledate'] }}</td>
+                            <td>$ {{ item['invoiceprice'] }}</td>
+                            <td>$ {{ item['soldprice'] }}</td>
+                            <td>{{ item['salesperson'] }}</td>
+                            <td>{{ item['price_ratio'] }}</td>
+                            <td>{{ item['name'] }}</td>
+                        </tr>
+                    {% endfor %}
+                {% else %}
+                    <div class="alert alert-warning" role="alert">
+                        There have been no cars sold which sold price are less than invoice price yet.
+                    </div>
+                {% endif %}
+            </tbody>
+        </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

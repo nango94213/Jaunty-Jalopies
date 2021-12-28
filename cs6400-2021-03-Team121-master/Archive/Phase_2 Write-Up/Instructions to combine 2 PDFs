@@ -1,0 +1,9 @@
+https://support.apple.com/en-us/HT202945
+
+Combine two PDFs:
+1. Open a PDF in Preview.
+2. Choose View > Thumbnails to show page thumbnails in the sidebar.
+3. To indicate where to insert the other document, select a page thumbnail. 
+4. Choose Edit > Insert > Page from File.*
+5. From the file dialog, select the PDF that you want to add, then click Open. 
+6. To save, choose File > Export as PDF.

@@ -1,0 +1,78 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+    <div class="mx-auto col-12 col-xl-8">
+        <h1 class="justify-content-center">{{data['title']}}</h1>
+    </div>
+    <div class="mx-auto col-12 col-xl-12"></div>
+    <div class="mx-auto col-12 col-xl-8">
+        {% if 'drill_down' in data %}
+            <div class="col-12 col-xl-7">
+                <div class="table-responsive-sm table-hover">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Sales Person</th>
+                                <th scope="col" class="text-right">Total Sales Income</th>
+                                <th scope="col" class="text-right">Total Vehicle Units Sold</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if data['results']|length %}
+                                {% for item in data['results'] %}
+                                    <tr>
+                                        <td>{{ item['fullname'] }}</td>
+                                        <td class="text-right">$ {{ item['total_sales_income'] }}</td>
+                                        <td class="text-right">{{ item['total_number_sold'] }}</td>
+                                    </tr>
+                                {% endfor %}
+                            {% else %}
+                                <div class="alert alert-warning" role="alert">
+                                    There were no sales during that year and month combined.
+                                </div>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        {% else %}
+            <div class="table-responsive-sm table-hover">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th scope="col">Year</th>  
+                        <th scope="col">Month</th>
+                        <th scope="col">Total Vehicle Units Sold</th>
+                        <th scope="col">Total Sales Income</th>
+                        <th scope="col">Total Net Income</th>
+                        <th scope="col">Price ratio</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% if data['results']|length %}
+                            {% for item in data['results'] %}
+                                <tr class='{{ item["class"] }}'>
+                                    <td>{{ item['years'] }}</td>
+                                    <td><a href="/reports/monthly-sales?year={{item['years']}}&month={{item['months']}}">{{ item['months'] }}</a></td>
+                                    <td>{{ item['total_number_sold'] }}</td>
+                                    <td>$ {{ item['total_sales_income'] }}</td>
+                                    <td>$ {{ item['total_net_income'] }}</td>
+                                    <td>{{ item['price_ratio'] }}</td>
+                                </tr>
+                            {% endfor %}
+                        {% else %}
+                            <div class="alert alert-warning" role="alert">
+                                There have been no cars sold.
+                            </div>
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

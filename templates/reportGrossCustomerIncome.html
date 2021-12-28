@@ -1,0 +1,126 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+    <div class="mx-auto col-12 col-xl-10">
+        <h1 class="justify-content-center">{{data['title']}}</h1>
+    </div>
+    <div class="mx-auto col-12 col-xl-12"></div>
+    <div class="mx-auto col-12 col-xl-10">
+        {% if 'drill_down' in data %}
+        <div class="col-12 col-xl-10">
+        <h3>Vehicle Sales</h3>
+        {% if data['results']['sales']|length %}
+            <div class="table-responsive-sm table-hover">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">VIN</th>
+                            <th scope="col">Year</th>
+                            <th scope="col">Model</th>
+                            <th scope="col">Manufacturer</th>
+                            <th scope="col">Sale Date</th>
+                            <th scope="col">Sales Person</th>
+                            <th scope="col" class="text-right">Sold Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in data['results']['sales'] %}
+                            <tr>
+                                <td>{{ item['vin'] }}</td>
+                                <td>{{ item['year'] }}</td>
+                                <td>{{ item['model'] }}</td>
+                                <td>{{ item['manufacturer'] }}</td>
+                                <td>{{ item['saledate'] }}</td>
+                                <td>{{ item['salesperson'] }}</td>
+                                <td class="text-right">$ {{ item['soldprice'] }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+                <div class="alert alert-warning" role="alert">
+                    There were no sales for this customer.
+                </div>
+            {% endif %}
+            </div>
+            <h3>Repairs</h3>
+            {% if data['results']['repairs']|length %}
+                <div class="table-responsive-sm table-hover">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th scope="col">VIN</th>
+                            <th scope="col">Start Date</th>
+                            <th scope="col">Completion Date</th>
+                            <th scope="col">Odometer Reading</th>
+                            <th scope="col" class="text-right">Labor Charges</th>
+                            <th scope="col" class="text-right">Total Part(s) Cost</th>
+                            <th scope="col">Service Writer</th>
+                            <th scope="col" class="text-right">Total Repair Cost</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in data['results']['repairs'] %}
+                                <tr>
+                                    <td>{{ item['vin'] }}</td>
+                                    <td>{{ item['startdate'] }}</td>
+                                    <td>{{ item['completiondate'] }}</td>
+                                    <td>{{ item['odometerreading'] }}</td>
+                                    <td class="text-right">$ {{ item['laborcharges'] }}</td>
+                                    <td class="text-right">$ {{ item['total_part_cost'] }}</td>
+                                    <td>{{ item['servicewriter'] }}</td>
+                                    <td class="text-right">$ {{ item['total_repair_cost'] }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% else %}
+                <div class="alert alert-warning" role="alert">
+                    There were no repairs for this customer.
+                </div>
+            {% endif %}
+        {% else %}
+            <div class="table-responsive-sm table-hover">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Total No. Sales</th>
+                        <th scope="col">Total No. Repairs</th>
+                        <th scope="col">Customer ID</th>
+                        <th scope="col">First Day of Repair/Sale</th>
+                        <th scope="col">Last Day of Repair/Sale</th>
+                        <th scope="col" class="text-right">Gross Income</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% if data['results']|length %}
+                            {% for item in data['results'] %}
+                                <tr>
+                                    <td><a href="/reports/gross-customer-income?customer_id={{item['id']}}">{{ item['name'] }}</a></td>
+                                    <td>{{ item['number_sale'] }}</td>
+                                    <td>{{ item['number_repair'] }}</td>
+                                    <td>{{ item['id'] }}</td>
+                                    <td>{{ item['first_date'] }}</td>
+                                    <td>{{ item['last_date'] }}</td>
+                                    <td>$ {{ item['gross_income'] }}</td>
+                                </tr>
+                            {% endfor %}
+                        {% else %}
+                            <div class="alert alert-warning" role="alert">
+                                There have been no customers.
+                            </div>
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

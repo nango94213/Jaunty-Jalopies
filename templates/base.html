@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}" />
+        <title>{{title}}</title>                
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Search</a>
+                </li>
+                {% if 'user' in session %}     
+                    {% if ('user_info' in session) and (session['user_info']['role'] in ['inventory_clerk', 'owner']) %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/vehicle">Add Vehicle</a>
+                    </li>
+                    {% endif %}
+                    {% if ('user_info' in session) and (session['user_info']['role'] in ['manager', 'owner']) %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Reports
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/reports/sales-by-color">Sales By Color</a>
+                            <a class="dropdown-item" href="/reports/sales-by-type">Sales By Type</a>
+                            <a class="dropdown-item" href="/reports/sales-by-manufacturer">Sales By Manufacturer</a>
+                            <a class="dropdown-item" href="/reports/gross-customer-income">Gross Customer Income</a>
+                            <a class="dropdown-item" href="/reports/repairs-by-manufacturer-type-model">Repairs by MF/Type/Model</a>
+                            <a class="dropdown-item" href="/reports/below-cost-sales">Below Cost Sales</a>
+                            <a class="dropdown-item" href="/reports/avg-time-in-inventory">Avg Time In Inventory</a>
+                            <a class="dropdown-item" href="/reports/parts-statistics">Parts Statistics</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/reports/monthly-sales">Monthly Sales</a>
+                        </div>
+                      </li>
+                    {% endif %}
+                    <li class="nav-item">
+                        <a style="color: darkcyan;" class="nav-link" href="/logout"> logout </a>
+                    </li>           
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Login</a>
+                    </li>       
+                {% endif %}
+            </ul>
+            {% if 'user_info' in session %}  
+            <ul class="navbar-nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link disabled text-secondary">{{ session['user_info']['username'] }} ({{ session['user_info']['role'] }}) </a>
+                </li>    
+            </ul>
+            {% endif %}
+            <ul class="navbar-nav ml-auto">
+                <h1 class="mainTitle">Jaunty Jalopies</h1>
+            </ul>
+        </div>
+    </nav>    
+    <div id="my-custom-container-fluid" class="container-fluid">      
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category,message in messages %}
+                <div class="alert alert-{{category}}" role="alert">
+                    {{ message }}
+                </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        {% block content %}
+        {% endblock %}
+    </div>
+    
+    <script type="text/javascript" src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/app.js')}}"></script>
+    {% block scripts %}
+    {% endblock scripts %}
+
+</body>
+</html>

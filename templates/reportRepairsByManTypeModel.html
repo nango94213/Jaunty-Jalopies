@@ -1,0 +1,83 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+    <div class="mx-auto col-12 col-xl-8">
+        <h1 class="justify-content-center">{{data['title']}}</h1>
+        {% if 'manufacturer' in data %}
+            <h2>{{ data['manufacturer'] }}</h2>
+        {% endif %}
+    </div>
+    <div class="mx-auto col-12 col-xl-12"></div>
+    <div class="mx-auto col-12 col-xl-8">
+        {% if 'drill_down' in data %}
+            {% if data['drill_down']|length %}
+            <div class="table-responsive-sm table-hover">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th scope="col">Type</th>
+                        <th scope="col">Model</th>
+                        <th scope="col">Total Number Repairs</th>
+                        <th scope="col">Total Labor Charges</th>
+                        <th scope="col">Total Part Cost</th>
+                        <th scope="col">Total Repair Cost</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in data['drill_down']%} 
+                        <tr>
+                            <td>{{item['type']}}</td>
+                            <td>{{item['mname']}}</td>
+                            <td>{{item['total_number_repair']}}</td>
+                            <td>$ {{item['total_labor_charges']}}</td>
+                            <td>$ {{item['total_part_cost']}}</td>
+                            <td>$ {{item['total_repair_cost']}}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+                </div>
+            {% else %}
+            <div class="alert alert-warning" role="alert">
+                There were no repairs found for manufacturer.
+            </div>
+            {% endif %}
+        {% else %}
+            {% if data['results']|length %}
+            <div class="table-responsive-sm table-hover">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">Manufacturer</th>
+                    <th scope="col">Total No. Repairs</th>
+                    <th scope="col">Total Labor Charges</th>
+                    <th scope="col">Total Part Cost</th>
+                    <th scope="col">Total Repair Cost</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for item in data['results'] %}
+                    <tr>
+                        <td><a href="/reports/repairs-by-manufacturer-type-model?manufacturer_name={{ item['manufacturer_name'] }}">{{ item['manufacturer_name'] }}</a></td>
+                        <td>{{ item['total_number_repair'] }}</td>
+                        <td>$ {{ item['total_labor_charges'] }}</td>
+                        <td>$ {{ item['total_part_cost'] }}</td>
+                        <td>$ {{ item['total_repair_cost'] }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            </div>
+            {% else %}
+                <div class="alert alert-warning" role="alert">
+                    There were no repairs yet.
+                </div>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

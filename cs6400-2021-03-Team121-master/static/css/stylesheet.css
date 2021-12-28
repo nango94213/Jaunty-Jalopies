@@ -1,0 +1,19 @@
+.mainTitle{
+  color: darkslateblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+.confirmationMessage{
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+}
+.errorMessage{
+  color: red;
+  font-style: italic;
+}
+
+#my-custom-container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+}

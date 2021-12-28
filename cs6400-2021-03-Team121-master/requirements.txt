@@ -1,0 +1,5 @@
+Flask==2.0.2
+psycopg2==2.9.1
+Faker==9.8.1
+gunicorn
+pdbpp

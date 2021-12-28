@@ -60,33 +60,3 @@ class PSQL:
         except Exception as ex:
             LOG.error(f"There was an error: {ex}")
             return tuple()
-
-    # TODO: Remove this data probably
-    def execute(self, query):
-        with self.conn:
-            with self.cursor() as cur:
-            # TODO: Check this out for dicts results
-            # cursor = dbConn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
-                cur.execute(query)
-                results = cur.fetchall()
-                # results = cur.fetchall()
-                # for row in results:
-                #     print("First Name: {}".format(row['first_name']))
-                #     print("Last Name: {}".format(row['last_name']))
-                #     print("Email: {}".format(row['email']))
-                return results
-    
-    def get_data(self, query):
-        with self.conn:
-            with self.cursor() as cur:
-            # TODO: Check this out for dicts results
-            # cursor = dbConn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
-                cur.execute(query)
-                results = cur.fetchall()
-                # results = cur.fetchall()
-                # for row in results:
-                #     print("First Name: {}".format(row['first_name']))
-                #     print("Last Name: {}".format(row['last_name']))
-                #     print("Email: {}".format(row['email']))
-                return results
-

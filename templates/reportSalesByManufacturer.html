@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+    <div class="mx-auto col-12 col-xl-4">
+        <h1 class="justify-content-center">{{data['title']}}</h1>
+        <form action="/reports/sales-by-manufacturer" method="post"> 
+            <button class="btn btn-dark" type="submit" name="30days" value="1">Last 30 days</button>
+            <button class="btn btn-primary" type="submit" name="1year" value="2">Last Year</button>
+            <button class="btn btn-danger" type="submit" name="day1" value="3">Since {{ data['first_sale_date'] }}</button>
+        </form>
+    </div>
+    <div class="mx-auto col-12 col-xl-12"></div>
+    <div class="mx-auto col-12 col-xl-4">
+        <div class="table-responsive-sm table-hover">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Manufacturer</th>
+                <th scope="col" class="text-right">Vehicles Sold</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for manufacturer in data['results_thirty_days_back'] %}
+                <tr>
+                    <td>{{ manufacturer['mfname'] }}</td>
+                    <td class="text-right text-dark">{{ manufacturer['count'] }}</td>
+                </tr>
+            {% endfor %}
+            {% for manufacturer in data['results_one_year_back'] %}
+                <tr>
+                    <td>{{ manufacturer['mfname'] }}</td>
+                    <td class="text-right text-primary">{{ manufacturer['count'] }}</td>
+                </tr>
+            {% endfor %}
+            {% for manufacturer in data['results_all_sales'] %}
+                <tr>
+                    <td>{{ manufacturer['mfname'] }}</td>
+                    <td class="text-right text-danger">{{ manufacturer['count'] }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

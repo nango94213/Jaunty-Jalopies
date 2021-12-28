@@ -1,0 +1,13 @@
+.mainTitle{
+  color: darkslateblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.SUV, .Convertible, .Car, .Truck, .Van {
+  display: none;
+}
+
+.individual, .business {
+  display: none;
+}

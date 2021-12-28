@@ -1,0 +1,7 @@
+Team121:
+Ding Yuan                       email: dyuan47@gatech.edu
+Om Sachdev                      email: osachdev3@gatech.edu
+Yinan Yang                      email: yyang601@gatech.edu
+Luis Humberto Orozco Cabrera    email: lcabrera32@gatech.edu
+
+SQL statements/queries/transactions can be found in folder `sql_`.

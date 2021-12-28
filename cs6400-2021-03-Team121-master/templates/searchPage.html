@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Search your car</h5>
+    <nav class="navbar navbar-light bg-light">
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+  </div>
+</div>
+
+<div class="container" style="margin-left: 0%;">
+  <div class="row justify-content-start">
+    <div class="col">
+    </label>Cars Available: <h1>{{ count_cars_available_for_sale }}</h1></label>
+    </div>
+  </div>
+</div>
+{% endblock %}

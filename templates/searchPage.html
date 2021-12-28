@@ -1,0 +1,181 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container mw-100">
+  {% if 'results_error' in errors %}
+    <div class="alert alert-danger" role="alert">
+      {{ errors.results_error }}
+    </div>   
+  {% endif %}
+  <div class="row">
+    <div class="col align-self-start col-12 col-xl-2">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Search your car</h5>
+          <div class="container" style="margin-left: 0%;">
+            <div class="row justify-content-start">
+              <div class="col border border-success text-success">
+                </label>Cars Available: <h1>{{ count_unsold_cars }}</h1></label>
+              </div>
+            </div>
+          </div>
+          <br>
+          <form action="/" method="post">
+            {% if 'user_info' in session %}
+              <label for="vinInputText1">VIN</label>
+              <input class="form-control" id="vinInputText1" placeholder="Enter VIN number" name="vinTextBox" value="{{entered_values['vin']}}">
+              <br>
+            {% endif %}
+            <div class="form-group">
+              <label for="vehicleTypeFormControlSelect1">Vehicle type</label>
+              <select class="form-control" id="vehicleTypeFormControlSelect1" name="vehicleTypeSelect1">
+                <option></option>
+                {% for vehicle_type, vt_count in vehicle_types_and_counts.items() %}
+                <option>{{vehicle_type}}{{vt_count}}</option>                   
+                {% endfor %}
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="manufacturerFormControlSelect1">Manufacturer</label>
+              <select class="form-control" id="manufacturerFormControlSelect1" name="manufacturerSelect1">
+                <option></option>
+                {% for manufacturer, mnf_count in manufacturers_and_counts.items() %}
+                <option>{{ manufacturer }}{{ mnf_count }}</option>                   
+                {% endfor %}
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="modelYearFormControlSelect1">Model Year</label>
+              <select class="form-control" id="modelYearFormControlSelect1" name="modelYearSelect1">
+                <option></option>
+                {% for model_year, my_count in models_years_and_counts.items() %}
+                <option>{{ model_year }}{{my_count}}</option>                   
+                {% endfor %}
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="colorFormControlSelect1">Color</label>
+              <select class="form-control" id="colorFormControlSelect1" name="colorSelect1">
+                <option></option>
+                {% for color, color_count in colors_and_counts.items() %}
+                <option>{{ color }}{{ color_count }}</option>                   
+                {% endfor %}
+              </select>
+            </div>
+
+            <label for="listPriceInputText1">List Price</label>
+            <input class="form-control" id="listPriceInputText1" aria-describedby="listPriceHelp" placeholder="Enter List Price" name="listPriceText" value="{{entered_values['list_price']}}">
+            <small id="listPriceHelp" class="form-text text-muted">For decimals use dot(.)</small>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="listPriceOption" id="listPriceRadios1" value="lte" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Less than
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="listPriceOption" id="exampleRadios2" value="gte">
+              <label class="form-check-label" for="exampleRadios2">
+                Greater than
+              </label>
+            </div>
+            {% if 'list_price_error' in errors %}
+              <div class="alert alert-danger" role="alert">
+                {{ errors.list_price_error }}
+              </div>   
+            {% endif %}
+
+            <div>
+              <br>
+              <label for="keywordInputText1">Keyword</label>
+              <input class="form-control" id="keywordInputText1" aria-describedby="keywordHelp" placeholder="Enter List Price" name="keywordTextBox" value="{{entered_values['keyword_']}}">
+              <small id="keywordHelp" class="form-text text-muted">Will match manufacturer, model year, model name and description, partially.</small>
+
+              {% if 'keyword_error' in errors %}
+                <div class="alert alert-danger" role="alert">
+                  {{ errors['keyword_error']}}
+                </div>   
+              {% endif %}
+
+              {% if ('user_info' in session) and (session['user_info']['role'] in ['manager', 'owner']) %}
+              <br>
+              <label>Vehicles</label>
+              <br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="sold_unsold_all_option_radio" id="optionSoldCarRadios1" value="unsold" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Unsold
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="sold_unsold_all_option_radio" id="optionSoldCarRadios2" value="sold">
+                <label class="form-check-label" for="exampleRadios2">
+                  Sold
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="sold_unsold_all_option_radio" id="optionSoldCarRadios3" value="all">
+                <label class="form-check-label" for="exampleRadios2">
+                  All
+                </label>
+              </div>
+              {% endif %}
+
+            </div>
+            <div>
+                <br>
+                <div class="table-responsive-sm table-hover">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col"><button type="submit" class="btn btn-outline-primary my-2 my-sm-0">Search</button></th>
+                        {% if ('user_info' in session) and (session['user_info']['role'] in ['service_writer', 'owner']) %}
+                          <th scope="col"><a class="btn btn-outline-danger my-2 my-sm-0" href="/repairs" role="button">Repair Form</a></th>
+                        {% endif %}
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    {% if results|length %} 
+    <div class="mx-auto col-12 col-xl-9">
+      <div class="table-responsive-sm table-hover">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">VIN</th>
+              <th scope="col">Vehicle Type</th>
+              <th scope="col">Model Year</th>
+              <th scope="col">Manufacturer</th>
+              <th scope="col">Model</th>
+              <th scope="col">Color(s)</th>
+              <th scope="col" class="text-center">Matched Keyword</th>
+              <th scope="col" class="text-right">List Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for vin, values in results.items() %}
+            <tr>
+              <th scope="row"><a href="/vehicle/{{vin}}">{{vin}}</a></th>
+              <td>{{values.vehicle_type}}</td>
+              <td>{{values.model_year}}</td>
+              <td>{{values.manufacturer}}</td>
+              <td>{{values.model_name}}</td>
+              <td>{{values.colors}}</td>
+              <td class="text-center">{{values.matched_keyword}}</td>
+              <td class="text-right">{{values.list_price}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{% endblock %}

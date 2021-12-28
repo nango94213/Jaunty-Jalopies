@@ -1,0 +1,369 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<div class="container mw-100">
+    <form action="/repairs" method="post">
+        <div class="row justify-content-center">
+            <div class="col col-12 col-xl-4 border border-secondary">
+                <br>
+                <h2 class="text-danger"> Repairs</h2>
+                {% if 'success' in vehicle %}
+                    <div class="form-group">
+                        <label for="vinInputText1">VIN number</label>
+                        <input class="form-control" id="vinInputText1" name="vin" placeholder="{{vehicle['vin']}}" value="{{vehicle['vin']}}" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="descriptionInputText1">Description</label>
+                        <input class="form-control" id="descInputText1" name="description" placeholder="{{vehicle['description']}}" value="{{vehicle['description']}}" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="vehicleTypeInputText1">Vehicle Type</label>
+                        <input class="form-control" id="vehicleTypeInputText1" name="vehicleType" placeholder="{{vehicle['type']}}" value="{{vehicle['type']}}" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="invoicePriceInputText1">Model Year</label>
+                        <input class="form-control" id="invoicePriceInputText1" name="model_year" placeholder="{{vehicle['model_year']}}" value="{{vehicle['model_year']}}" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="invoicePriceInputText1">Model Name</label>
+                        <input class="form-control" id="invoicePriceInputText1" name="model_name" placeholder="{{vehicle['model_name']}}" value="{{vehicle['model_name']}}" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="listPriceInputText1">Manufacturer</label>
+                        <input class="form-control" id="listPriceInputText1" name="manufacturer" placeholder="{{vehicle['manufacturer']}}" value="{{vehicle['manufacturer']}}" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="colorsInputText1">Color(s)</label>
+                        <input class="form-control" id="colorsInputText1" name="colors" placeholder="{{vehicle['colors']}}" value="{{vehicle['colors']}}" readonly>
+                    </div>
+                {% else %}
+                    <div class="form-group">
+                        <label for="vinInputText1">VIN number</label>
+                        <input class="form-control" id="vinInputText1" name="vin" value="{{vehicle['vin']}}">
+                    </div>
+                    {% if 'vin' in errors %}
+                        <div class="alert alert-danger" role="alert">
+                        {{ errors.vin }}
+                        </div>  
+                    {% elif 'vin_exists' in errors %} 
+                        <div class="alert alert-warning" role="alert">
+                            {{ errors.vin_exists }}
+                        </div>   
+                    {% endif %}
+                    <div>
+                        <div class="btn-group">
+                            <button type="submit" class="btn btn-primary" name="repairButton" value="find">Find</button>
+                            {% if 'vin_exists' in errors %}
+                                <button type="submit" class="btn btn-warning" name="updateRepairButton" value="go_to_update">Update Repair</button>
+                            {% endif %}
+                        </div>  
+                    </div>
+                {% endif %}
+                <br>
+            </div>
+            {% if 'success' in vehicle %}
+                <div class="col col-12 col-xl-4 border border-secondary">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="form-group">
+                        <label for="vinInputText1">Customer ID</label>
+                        {% if 'success' in customer %}
+                            <input class="form-control" id="vinInputText1" name="customerID" aria-describedby="customerIDHelp" placeholder="{{customer['id']}}" value="{{customer['id']}}" readonly>
+                        {% else %}
+                            <input class="form-control" id="vinInputText1" name="customerID" aria-describedby="customerIDHelp" value="{{customer['id']}}">
+                            {% if 'customer_id' in errors %}
+                            <br>
+                            <div class="alert alert-danger" role="alert">
+                                {{ errors.customer_id }}
+                            </div>   
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                    
+                    {% if 'success' in customer %}
+                        {% if customer['type'] == 'Individual' %}
+                            <div class="form-group">
+                                <label for="name">{{customer['type']}} Account</label>
+                                <input class="form-control" id="nameId" name="name" placeholder="{{customer['firstname']}} {{customer['lastname']}}" readonly>
+                            </div>
+                        {% elif customer['type'] == 'Business' %}
+                            <div class="form-group">
+                                <label for="name">{{customer['type']}} Account</label>
+                                <input class="form-control" id="nameId" name="name" placeholder="{{customer['person_name']}}" value="{{customer['person_name']}}" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label for="position">Title</label>
+                                <input class="form-control" id="positionId" name="position" placeholder="{{customer['person_title']}}" value="{{customer['person_title']}}" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input class="form-control" id="companyId" name="company" placeholder="{{customer['business_name']}}" value="{{customer['business_name']}}" readonly>
+                            </div>
+                        {% endif %}
+                        <div class="form-group">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input class="form-control" id="phoneNumberId" name="phoneNumber" placeholder="{{customer['phone_number']}}" value="{{customer['phone_number']}}" readonly>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input class="form-control" id="emailId" name="email" placeholder="{{customer['email_address']}}" value="{{customer['email_address']}}" readonly>
+                        </div>
+                        <br>
+                    {% else %}
+                        <div class="form-group displayedWhenAddRadioSelected" style="display:none">
+                            <label for="accountTypeFormControlSelect1">Account Type</label>
+                            <select class="form-control" id="accountTypeFormControlSelect1" name="accountType">
+                            <option></option>
+                            <option>Business</option>   
+                            <option>Individual</option>
+                            </select>
+                        </div>
+                        <div class="individual hideWhenFindRadioSelected">
+                            <div class="form-group">
+                                <label for="firstnameFieldId">Firstname</label>
+                                <input class="form-control" id="firstnameFieldId" name="add_firstname" value="{{customer['add_firstname']}}">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastNameFieldId">Lastname</label>
+                                <input class="form-control" id="lastNameFieldId" name="add_lastname" value="{{customer['add_lastname']}}">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="addreessIndividualId">Address</label>
+                                <input class="form-control" id="addreessIndividualId" name="add_address_individual" value="{{customer['add_address_individual']}}">
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumberIndividualId">Phone Number</label>
+                                <input class="form-control" id="phoneNumberIndividualId" name="add_phoneNumber_individual" value="{{customer['add_phone_number_individual']}}">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="emailIndividualId">Email Address</label>
+                                <input class="form-control" type="email" id="emailIndividualId" name="add_email_individual" value="{{customer['add_email_individual']}}">
+                            </div>
+                        </div>
+                        <div class="business hideWhenFindRadioSelected" id="businessFormId">
+                            <div class="form-group">
+                                <label for="businessNameFieldId">Business Name</label>
+                                <input class="form-control" id="businessNameFieldId" name="add_businessName" value="{{customer['add_business_name']}}">
+                            </div>
+                            <div class="form-group">
+                                <label for="primaryContactNameFieldId">Primary Contact Name</label>
+                                <input class="form-control" id="primaryContactNameFieldId" name="add_primaryContactName" value="{{customer['add_primary_contact_name']}}">
+                            </div>
+                            <div class="form-group">
+                                <label for="primaryContactTitleFieldId">Primary Contact Title</label>
+                                <input class="form-control" id="primaryContactTitleFieldId" name="add_primaryContactTitle" value="{{customer['add_primary_contact_title']}}">
+                            </div>
+                            <div class="form-group">
+                                <label for="addAddressBusinessId">Address</label>
+                                <input class="form-control" id="addAddressBusinessId" name="add_address_business" value="{{customer['add_address_business']}}">
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumberBusinessId">Phone Number</label>
+                                <input class="form-control" id="phoneNumberBusinessId" name="add_phoneNumber_business" value="{{customer['add_phone_number_business']}}">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="emailFieldBusiness">Email Address</label>
+                                <input class="form-control" type="email" id="emailFieldBusiness" name="add_email_business" value="{{customer['add_email_business']}}">
+                            </div>
+                        </div>
+                        {% if ('add_customer' in errors) and (errors['add_customer']|length)%}
+                            <div class="alert alert-danger" role="alert">
+                            {{ errors.add_customer }}
+                            </div>   
+                        {% endif %}
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" onclick="javascript:buttonClassCheck();" name="buttonsRadios" id="findButton" value="find" checked>
+                            <label class="form-check-label" for="inlineRadio1">
+                                <button name="customerButton" value="find" type="submit" class="btn btn-outline-primary displayedWhenFindRadioSelected">Find</button> 
+                                <span class="text-primary displayedWhenAddRadioSelected" style="display:none">Find</span>
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" onclick="javascript:buttonClassCheck();" name="buttonsRadios" id="addButton" value="add">
+                            <label class="form-check-label" for="inlineRadio2">
+                                <button name="customerButton" value="add" type="submit" class="btn btn-outline-dark displayedWhenAddRadioSelected" style="display:none">Add</button>
+                                <span class="text-dark displayedWhenFindRadioSelected">Add</span>
+                            </label>
+                        </div>
+                        <br>
+                        <br>
+                    {% endif %}
+                </div>
+            {% endif %}
+            {% if 'success' in customer %}
+                <div class="col col-12 col-xl-4 border border-secondary">
+                    <br>
+                    {% if 'repairs' in errors %}
+                        <div class="alert alert-danger" role="alert">
+                            {{ errors.repairs }}
+                        </div>   
+                    {% else %}
+                        <br>
+                        <br>
+                    {% endif %}
+                    {% if 'success' in repair %}
+                        <div class="form-group">
+                            <label for="repairDescription">Repair Description</label>
+                            <input class="form-control" id="repairDescription" name="add_repairDescription" value="{{repair['description']}}" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="repairOdometer">Odometer Reading</label>
+                            <input class="form-control" id="repairOdometer" name="add_repairOdometer" value="{{repair['odometer']}}" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="repairLaborCharges">Labor Charges</label>
+                            <input class="form-control" id="repairLaborCharges" name="repairLaborCharges" value="$ {{repair['labor_charges']}}" readonly>
+                        </div>
+
+                        <br>
+                        <div class="form-group">
+                            <label for="add_laborCharges">Updated Labor Charges: </label>
+                            <input class="form-control" id="add_laborCharges" placeholder="Enter amount ..." name="add_laborCharges" value="{{repair['add_labor_charges']}}" aria-describedby="laborHelp">
+                            <small id="laborHelp" class="form-text text-muted">This amount needs to be higher than current 'Labor Charges'.</small>
+                        </div>
+                        {% if 'add_repair_labor_changes' in errors %}
+                            <div class="alert alert-danger" role="alert">
+                                {{ errors.add_repair_labor_changes }}
+                            </div>   
+                        {% endif %}
+                        <div>
+                            <div class="btn-group">
+                                <button type="submit" class="btn btn-primary" name="repairButton" value="update_labor">Update</button>
+                                <button type="submit" class="btn btn-outline-success" name="repairButton" value="complete">Complete Repair</button>
+                            </div>  
+                        </div>
+                    {% else %}
+                        <div class="form-group">
+                            <label for="repairDescription">Repair Description</label>
+                            <input class="form-control" id="repairDescription" name="add_repairDescription" value="{{repair['description']}}">
+                        </div>
+                        {% if 'add_repairDescription' in errors %}
+                            <div class="alert alert-danger" role="alert">
+                                {{ errors.add_repairDescription }}
+                            </div>   
+                        {% endif %}
+                        <div class="form-group">
+                            <label for="repairOdometer">Odometer Reading</label>
+                            <input class="form-control" id="repairOdometer" name="add_repairOdometer" value="{{repair['odometer']}}">
+                        </div>
+                        {% if 'add_repairOdometer' in errors %}
+                            <div class="alert alert-danger" role="alert">
+                                {{ errors.add_repairOdometer }}
+                            </div>
+                        {% endif %}
+                    
+                        <button type="submit" class="btn btn-primary" name="repairButton" value="create">Create Repair</button>
+                    {% endif %}
+                </div>
+                <div class="form-group d-none d-print-none">
+                    <input class="form-control" name="successCustomerType" value="{{customer['type']}}"/>
+                    <input class="form-control" name="successCustomerAddress" value="{{customer['address']}}"/>
+                    <input class="form-control" name="successCustomerPhoneNumber" value="{{customer['phone_number']}}"/>
+                    <input class="form-control" name="successCustomerEmailAddress" value="{{customer['email_address']}}"/>
+                    <input class="form-control" name="successCustomerFirstname" value="{{customer['firstname']}}"/>
+                    <input class="form-control" name="successCustomerLastname" value="{{customer['lastname']}}"/>
+                    <input class="form-control" name="successCustomerBusinessName" value="{{customer['business_name']}}"/>
+                    <input class="form-control" name="successCustomerPersonName" value="{{customer['person_name']}}"/>
+                    <input class="form-control" name="successCustomerPersonTitle" value="{{customer['person_title']}}"/>
+                </div>
+            {% endif %}
+            {% if 'success' in repair %}
+                <div class="col col-12 col-xl-12 border border-secondary">
+                    <div class="table-responsive-sm table-hover">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col">Part Number</th>
+                                <th scope="col">Vendor Name</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Unit Price ($)</th>
+                                <th scope="col">Action</th> 
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input class="form-control" placeholder="Enter part number ..." name="new_part_part_number" value="{{new_part['part_number']}}">
+                                        {% if 'new_part_part_number' in errors %}
+                                            <div class="alert alert-danger" role="alert">
+                                                {{ errors.new_part_part_number }}
+                                            </div>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        <input class="form-control" placeholder="Enter vendor name ..." name="new_part_vendor_name" value="{{new_part['vendor_name']}}">
+                                        {% if 'new_part_vendor_name' in errors %}
+                                            <div class="alert alert-danger" role="alert">
+                                                {{ errors.new_part_vendor_name }}
+                                            </div>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        <input class="form-control" placeholder="Enter quantity ..." name="new_part_quantity" value="{{new_part['quantity']}}">
+                                        {% if 'new_part_quantity' in errors %}
+                                            <div class="alert alert-danger" role="alert">
+                                                {{ errors.new_part_quantity }}
+                                            </div>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        <input class="form-control" placeholder="Enter unit price ..." name="new_part_unit_price" value="{{new_part['unit_price']}}">
+                                        {% if 'new_part_unit_price' in errors %}
+                                            <div class="alert alert-danger" role="alert">
+                                                {{ errors.new_part_unit_price }}
+                                            </div>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        <button type="submit" class="btn btn-success" name="repairButton" value="add_part">Add</button>
+                                    </td>
+                                </tr>
+                                {% if parts|length %}
+                                    {% for part in parts %}
+                                        <tr>
+                                            <td>
+                                                <input class="form-control" name="displayed_part__part_number" placeholder="{{ part['part_number'] }}" value="{{part['part_number']}}" readonly>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" name="displayed_part__vendor_name" placeholder="{{part['vendor_name']}}" value="{{part['vendor_name']}}" readonly>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" placeholder="{{ part['quantity'] }}" readonly>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" name="displayed_part__unit_price" placeholder="{{part['unit_price']}}" value="{{part['unit_price']}}" readonly>
+                                            </td>
+                                            <td>
+                                                <button type="submit" class="btn btn-danger" name="repairButton" value="delete_part">Delete</button>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                {% else %}
+                                    <div class="alert alert-warning" role="alert">
+                                        There are no parts added for this repair yet.
+                                    </div>
+                                {% endif %}
+                                {% if 'new_part_overall' in errors %}
+                                    <div class="alert alert-danger" role="alert">
+                                        {{ errors.new_part_overall }}
+                                    </div>
+                                {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </form>
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src="{{url_for('static', filename='js/newCustomerForm.js')}}"></script>
+{% endblock scripts %}

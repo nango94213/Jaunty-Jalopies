@@ -1,0 +1,501 @@
+VIN	year	manufacturer_name	model	Colors	description	invoice_price	added_by	date_added	vehicle_type	number_doors	back_seat_count	roof_type	num_cupholders	drive_train_type	num_rear_axles	cover_type	capacity	driver_side_door	sold_by	sale_date	sold_price	customer
+00AIVKIDO01487633	2006	Lincoln	LS	Claret		5315.01	user09	7/17/2020	Van									1	user19	12/13/2020	6307.12	C0199518923
+01WR7E2ZMCD216522	2006	Mitsubishi	FE145	Green	automatic safety features; 	2572	user18	2/9/2021	SUV				1	RWD					user10	6/28/2021	3761.09	A9383285395
+06XZOKN8UAY309163	2004	SAAB	9-5	Metallic		1177.06	user25	2/13/2020	SUV				3	FWD					roland	3/7/2020	1263.15	B7932999712
+073HOEWCHAF741925	2013	INFINITI	QX56	Black,Cream,Red		4488.9	user18	2/20/2021	Car	4									user10	3/6/2021	6395.17	C6390913308
+07TSE0YYIZF380247	2003	Honda	CR125R	White	good gear; disc brake; disc brake; 	2262.77	user20	4/11/2020	Van									1	user04	10/27/2020	2271.02	D8356291718
+07W0YPOJ5ME337155	2009	Aston Martin	V8 VANTAGE	Orange		3976.03	roland	9/2/2020	Van									1	user10	4/11/2021	5541.84	96-9587311
+0BT52YYB1L8670257	2012	Mercedes-Benz	SLK350	Aluminum	coupe; 	13651.83	user27	3/15/2020	SUV				3	FWD					user32	11/21/2020	15835.96	B7932999712
+0EPPRCZZ8NW751990	2010	Lotus	EXIGE	Gold	superturbocharger; crankcase; 	4789.06	user18	7/22/2020	Convertible		2	Retractable hardtop							roland	12/6/2020	5682.03	19-3136322
+0I0Q707FJ2E520815	2002	Chrysler	VOYAGER	Metallic	supernew catalytic converter; 	1561.77	user03	9/25/2020	Van									1	user04	3/11/2021	2110.63	C7836526302
+0K0DP4SDKL0912273	2013	BMW	ALPINA B7L XDRIVE	Tan	power train; 	3044.58	user27	3/21/2020	Convertible		3	Retractable hardtop							user01	9/22/2020	3323.71	A3706458629
+0T8OJLNDGOE809956	2021	Rolls-Royce	GHOST	Black	four-wheel drive; high differential; strong muffler; 	3972.65	user03	6/26/2020	Van									1				
+0UBBG820VBK445621	2007	Volkswagen	LUPO	Tan	best possible traction; autotachometer; 	3628.68	user11	2/27/2020	Convertible		3	Rear window							user21	4/21/2021	3914.2	09-5111889
+0VWWXBNXE6N897485	2007	Jeep	GRAND CHEROKEE	Gold	ultra new transmission; best sedan; 	1006.68	user25	4/18/2020	SUV				1	AWD					user23	10/1/2020	1543.97	A9824759625
+0WPI14P1N3Y139809	2008	INFINITI	EX35	Red	automatic transmission; 	4256.41	user03	1/16/2021	Convertible		3	Rear window							user01	1/29/2021	4839.43	D3639339127
+0YQVT1ME4G3999928	2002	Bentley	ARNAGE	Silver	front wheel drive; 	1085.89	user03	5/23/2021	Truck						4	Tool Box	0.5		user21	6/2/2021	1900.06	86-6324444
+138J6387R5R404455	2003	Chevrolet	W3500 TILTMASTER	Tan	all passive safety features; 	1492.24	user20	3/22/2020	Truck						5	Hinged	2.5					
+15G3KHMPQ6Q659826	2013	Lotus	EVORA	Gold	anti-lock brake system (ABS); great stabilizer bar; 	4054.4	user05	1/12/2020	Car	3									user22	11/7/2020	4525.43	C2665896847
+1D5LRLSWAOI565071	2012	Ford	ECONOLINE VAN	Purple	safe oil ring; 	4325.62	user14	10/10/2020	SUV				4	RWD								
+1DQL1LHOWDJ517215	2004	Subaru	OUTBACK	White	crumple zones; oversteer; 	1284.63	user07	5/2/2020	Truck						3	Snap	4		user06	1/16/2021	1293.88	64-4494473
+1EF7NFU0EUT973245	2002	Toyota	SIENNA	Yellow	check the Monroney sticker - theer is nothing better than this vehicle; 	3105.79	user25	10/18/2020	Truck						3		3		user10	10/28/2020	3005.66	C9883149255
+1FU8E0GMYMW270793	2013	Tesla	S	Claret		2654.48	user14	3/31/2020	Car	3									user21	5/9/2020	3400	64-4494473
+1NGZ4FLKC0Y272420	2021	Lexus	ES350	Blue	high block; drive shaft; 	1135.53	user25	6/9/2020	Truck						5	Folding	4		user10	6/5/2021	2443.11	C2477021110
+1XHDZEREQ7I052484	2012	MINI	COUNTRYMAN	Brown	broad wheelbase; 	6000.85	user16	2/16/2020	Convertible		3	Textile							user04	3/21/2021	6786.62	D2507219873
+20DS0RGMDXW132327	2007	MAZDA	B2300	Navy	disc brake; drum brake; good gear; 	1800.98	user26	6/7/2021	SUV				1	4WD					user10	6/9/2021	1959.43	A5224016442
+21SSFP0O1TZ975822	2004	Ferrari	ENZO	Rust	overdrive; 	2527.5	user18	12/7/2020	Convertible		2	Tonneau cover							user04	5/19/2021	2942.34	D8992895517
+222BHPCRR2U716446	2001	Honda	CR-V	Beige	modern dashboard; 	2205.84	user14	5/3/2020	Van									1	user23	12/5/2020	4007.78	64-7173397
+23XU4U8IFDL261229	2007	Jaguar	XK	Tan	original equipment manufacturer (OEM) parts; 	1812.08	user05	9/10/2020	Truck						2	Hinged	0.5		user21	2/24/2021	3239.44	D0985294389
+26OCQWEQYJV636712	2014	Cadillac	ESCALADE	Claret	can be used as sports car; 	2573.46	user26	6/15/2021	Car	3									user22	6/19/2021	2519.51	A4195059665
+26RIMRHVSQK619881	2006	Cadillac	SRX	Rose,Yellow	superturbocharger; electronic transmission; 	1647.53	user09	7/5/2020	Convertible		3	Safety							roland	11/26/2020	1359.46	94-3886618
+280ECEXOEHP375800	2001	Subaru	IMPREZA	Blue	innovative air bags; 	1541.24	roland	2/5/2021	SUV				1	AWD					user10	5/6/2021	3306.53	D8549360259
+2GJ51MZ0A1N199895	2013	Lamborghini	GALLARDO	Purple	best radiator; 	2743.31	user09	6/26/2020	Convertible		3	Safety							user21	2/22/2021	4181.44	D8406096764
+2H6ZZF8OOXC822443	2008	Lotus	EXIGE	Beige	no backfire/backfiring; 	4789.06	user27	6/10/2020	Truck						5	Roll-Up/Rolling	3		user22	6/29/2020	4707.07	D8119514417
+2JFUVPW8OEP241581	2008	Mercedes-Benz	R350	Maroon	engine displacement; 	3521.82	user25	9/14/2020	Van									0	user22	6/4/2021	3585.97	A1652643602
+2JS82H11FSA911163	2008	BMW	535XI	Gray	high torque; 	4247.5	user11	10/26/2020	Truck						3	Retractable	3.5		user22	4/15/2021	4549.97	B1047114421
+2M2YYWOTASX195835	2005	Audi	A6	Red	no backfire/backfiring; 	1754.25	user18	5/31/2020	Convertible		2	Tonneau cover										
+2MNNLWJKNT4620363	2013	Freightliner	108SD	Beige		2448.74	user07	2/9/2021	Car	4									user04	3/15/2021	3710.95	B2831352575
+2NMR3SMFNAZ813043	2020	Lamborghini	GALLARDO	Pink	superturbocharger; disc brake; 	2743.31	roland	10/28/2020	Truck						3	Snap	2.5		user32	6/21/2021	2956.55	C4721215300
+2PLFCGV5R7I019543	2010	Acura	CSX	White	no understeer; best radiator; 	1291.57	user27	10/10/2020	Van									0				
+2PTE667K3PZ151997	2002	Volkswagen	EUROVAN	Brown	best radiator; 	4051.61	user26	5/27/2020	Van									1				
+2UL7JBUREY0725461	2010	Kia	OPTIMA	Tan		4319.61	user27	5/13/2021	SUV				1	FWD					user23	5/31/2021	4768.2	B8426722523
+2W7BN5RJGCI094698	2013	Nissan	XTERRA	Blue	high block; 	10249.6	user14	12/18/2020	Convertible		3	Rear window							user21	6/26/2021	11315.92	A0750292190
+2XMKC0W8ARB619752	2007	Volkswagen	TOUAREG	Beige		1655.83	user09	5/27/2020	Convertible		3	Safety							user01	7/12/2020	2419.75	C7966010586
+2ZGQSMRVMSR266772	2018	Nissan	TITAN	Black	broad wheelbase; crumple zones; high differential; 	1175.9	user05	6/1/2021	SUV				3	4WD					roland	6/30/2021	1354.38	D1263382492
+31C70O0QKDA098851	2012	Land Rover	RANGE ROVER	Silver		3972.38	user11	6/26/2020	Car	4												
+36GPKZLLJM1116960	2017	Maserati	GRANTURISMO	Gold	automatic torque converter; 	4817.69	user27	3/15/2020	Convertible		2	Tonneau cover							user04	4/26/2020	5496.27	86-6324444
+36HU6JXKV0B908236	2007	Land Rover	RANGE ROVER	Rust		3972.38	user11	3/10/2020	Car	4									user04	7/6/2020	4559.97	B1302071867
+3856NH1QBEC536316	2012	Audi	A5	Bronze		1984.66	user27	1/14/2020	Van									0	user23	1/18/2020	2243.57	09-5111889
+3A03KTHXJ6O098081	2005	Volvo	XC70	Red	front axle assembly; automatic torque converter; 	3369.1	user26	3/7/2021	Car	4									user04	6/10/2021	3485.45	38-5109013
+3A3OOF2JN5W951740	2003	Toyota	TUNDRA	Pink,Red,Rust	sturdy rear axle assembly; 	1763.04	user27	7/2/2021	SUV				4	AWD					user32	7/3/2021	2686.69	C8349669264
+3BZD4P4QMXX657876	2005	Freightliner	FC80	White	superturbocharger; 	2168.4	user26	2/2/2020	Convertible		2	Safety							roland	2/25/2020	3285.81	A0923389692
+3C8P2TNWAH7477883	2004	Acura	NSX	Yellow	engine displacement; wide transaxle; front axle assembly; 	3536.16	user18	1/20/2020	Convertible		3	Retractable hardtop							user06	3/23/2020	3359.43	24-1651361
+3J73EOBU1AT381615	2014	Ram	PROMASTER 1500	Green	anti-lock brake system (ABS); 	6607.68	user26	7/7/2020	SUV				3	RWD					user21	7/2/2021	7097.88	A6107738399
+3JLCARWCAYY553033	2010	Lincoln	MKZ	Navy	gap; 	1131.87	user11	2/10/2020	Truck						5	Retractable	0.5		user21	6/20/2021	1246.74	59-1521466
+3LSIXEX21UG135253	2015	Land Rover	LR2	Maroon,Rust	strong muffler; 	5110.4	user11	2/8/2020	SUV				3	RWD					user23	7/17/2020	6301.2	B9153577327
+3PO4C2PYJG2012419	2009	Subaru	IMPREZA	Orange	best possible traction; 	2629.98	user14	6/1/2021	Car	2									user32	6/9/2021	3011.23	B4747383483
+3WLVE4GIZOK699230	2007	Lincoln	MARK LT	Cream	engine displacement; 	1565.57	user26	6/25/2021	Truck						5	Folding	3.5		user10	7/3/2021	4262.73	B3114961337
+40ZV2CDNP4T119176	2008	MINI	COOPER	Brown	modern dashboard; 	2531.54	user05	4/8/2021	SUV				2	RWD					user06	5/6/2021	5317.24	45-6711652
+41D7ZAIOT2O903612	2005	Dodge	RAM 4000	Navy		4109.53	user11	9/27/2020	Van									0				
+42RZCIYGO3E765775	2006	Lamborghini	GALLARDO	Purple	best suspension; 	2743.31	user26	5/11/2021	SUV				4	AWD								
+4AO3LKJSBVK865142	2006	Audi	A3 QUATTRO	Bronze,Tan,Yellow	power train; 	3939	user27	3/30/2021	SUV				1	4WD					user01	5/26/2021	3794.77	B8116028762
+4ILM6P01OC4089888	2005	Maserati	GRANSPORT	Purple	small spark plug gap; no backfire/backfiring; station wagon (Also known as wagon.); 	3432.06	user11	1/19/2021	Car	4									user19	2/11/2021	3661.32	51-3984561
+4J0U15MIVG3154225	2009	Honda	TRX500FPE FOURTRAX FOREMAN 4X4 ES W	Purple		2749.7	user09	8/18/2020	SUV				4	RWD					roland	3/20/2021	4355.85	A0301796521
+4JT7M5DVI8N560897	2005	Freightliner	MT55	White	high torque; 	1584.17	user03	2/26/2021	Convertible		3	Open car and roadster							roland	6/13/2021	1345.31	A7135730876
+4M0LNVY3QN7194734	2019	MINI	COOPER PACEMAN	Bronze	all passive safety features; sturdy side impact beams; 	3002.73	user03	6/6/2020	Van									1	user32	6/11/2020	3726.94	D9868570966
+4MN32RC4IOG603247	2011	Lincoln	MKS	Turquoise	automatic valves; 	1102.12	user07	1/24/2020	Car	4									user23	2/28/2021	2638.2	C5471875763
+4QJE0AIYWQG719639	2001	Jaguar	VANDEN PLAS	Black	front axle assembly; 	1423.06	user25	5/26/2021	Van									0	user32	7/3/2021	2214.62	94-3886618
+4U6EIHP6IVH261573	2010	Ram	DAKOTA	Pink	high torque; 	2960.28	user27	12/17/2020	SUV				1	FWD					user06	5/4/2021	3626.51	C2486363271
+4VCO5FCED7G676135	2015	Tesla	S	Brown,Gray	automatic safety features; 	2654.48	user05	1/14/2021	Car	4									user04	2/8/2021	2983.47	B8560719297
+4ZDD0PLHYQ2396481	2005	BMW	F650GS DAKAR ABS	Blue		1724.77	user25	5/17/2020	Car	2									user01	5/19/2021	1748.3	34-1167025
+517DV0QLBFR999628	2015	Bentley	MULSANNE	Rose	gap; 	1557.58	roland	11/17/2020	Van									0	user22	4/29/2021	1622.87	D3516713339
+52RI0SIMIEO259872	2011	Hyundai	EQUUS	Cream	drive shaft; 	1361.52	user20	3/16/2021	SUV				3	AWD					user01	5/24/2021	1950.84	D5191373192
+55BNEOM74SD548903	2017	Ferrari	FF	Copper,Cream,Maroon	manual transmission; 	1800.15	user20	1/24/2020	SUV				2	FWD					user32	5/23/2021	2886.07	D6534556524
+572N6O1FPHF266007	2005	GMC	CANYON	Blue		1318.35	user26	1/2/2021	Convertible		3	Open car and roadster							user04	3/21/2021	1555.08	24-1651361
+57QKKXRE3D4530992	2005	Volvo	S80	Cream,Silver		2654.27	user11	3/17/2021	Convertible		2	Open car and roadster							user21	5/18/2021	2588.69	B6594307920
+5BJ3ZR2EH6A861494	2018	McLaren	MP4-12C	Maroon	autotachometer; 	5800.97	user27	7/28/2020	Car	2									user04	9/9/2020	8042.42	B0667673329
+5BYUV0G3UUI083209	2009	Aston Martin	V8 VANTAGE	Red	no understeer; engine displacement; best sedan; 	3976.03	roland	8/13/2020	Van									1	user06	5/3/2021	3884.37	A7394786391
+5CB4NEI0MK5675645	2002	Dodge	RAM 1500	Green	no redline; 	4949.98	user11	4/9/2021	Convertible		2	Safety							user22	5/28/2021	6015.46	B4901838775
+5FJS67P7IPP595990	2005	Jaguar	VANDEN PLAS	Claret	autotachometer; 	1423.06	user09	2/28/2020	SUV				2	RWD								
+5NBXLBXN4X5470477	2001	GMC	YUKON	Navy		1232.23	user26	6/19/2021	SUV				2	AWD					roland	6/27/2021	2154.52	C8387651854
+5PIT4XQ2IDT961455	2006	Honda	RIDGELINE	Black,Bronze	no understeer; rack and pinion steering; 	1160.69	user09	8/19/2020	SUV				2	AWD					user10	9/27/2020	2334.95	A7135730876
+5RCHA2RQSKN126776	2016	BMW	520I	Maroon	oversteer; 	3588.98	user07	11/7/2020	Truck						4	Tool Box	1		user10	11/26/2020	3785.84	D9726048247
+5T4361QO304945721	2010	Lotus	ELISE	Claret	hatchback; 	3400.69	user11	5/31/2020	Van									0	user21	12/3/2020	4867.61	A7476663773
+5UQZITKQTP7241158	2003	Freightliner	FL106	Maroon	modern dashboard; detail; 	5166.94	user03	10/14/2020	SUV				1	4WD					user21	1/11/2021	5032.9	48-1769205
+5W5DTMZTE7I312231	2002	Dodge	RAM 3500 PICKUP	Silver		6365.84	user25	3/30/2020	SUV				2	AWD					user32	8/24/2020	6975.02	D8269311874
+60A35P7VZQO153588	2005	Rolls-Royce	PHANTOM	Cream,Green,Rose	engine displacement; ultra new transmission; innovative air bags; 	1706.99	user14	11/7/2020	SUV				3	RWD								
+60R1UZM2YJQ922532	2020	Jaguar	XKR-S	Orange		5005.4	user16	12/20/2020	Convertible		2	Retractable hardtop							user06	6/30/2021	6504.39	D8992895517
+61ZH3G2YGUO461519	2009	Volvo	S40	Beige,Copper	automatic valves; 	2065.21	user25	3/1/2021	Car	4									user19	4/1/2021	3189.05	C8387651854
+62EPDI1EYYJ402081	2001	GMC	SAVANA 2500	Cream	check the Monroney sticker - theer is nothing better than this vehicle; crankcase; 	3037.76	user11	3/25/2020	SUV				4	4WD					user06	8/28/2020	3145.13	34-1167025
+65AR6E3EWLS157544	2014	FIAT	DUCATO	Gold,Orange	electronic transmission; 	1265.69	user03	2/21/2020	Convertible		2	Safety							user21	4/18/2020	1652.99	D7197177558
+68T41LUUBBY587797	2001	Lamborghini	DIABLO	Pink,Yellow	convertible; 	5138.38	user05	1/16/2020	Truck						2	Roll-Up/Rolling	4					
+6ACP1HSTRBZ522953	2006	Subaru	B9 TRIBECA	Metallic	automatic valves; 	1641.46	user03	2/28/2021	Convertible		3	Detachable hardtop										
+6EO0EFPPJU8942538	2005	Audi	S4	Copper		4719.36	user26	1/22/2021	Truck						2	Tool Box	1.5		user04	1/23/2021	5807.24	D0751253658
+6FEEUSROFOI436591	2002	Chevrolet	TAHOE	White	great rpms; wide chassis; 	6293.85	user25	12/7/2020	Van									1	user04	3/2/2021	7161.07	C8180681803
+6HE6INXKVOC685258	2013	MAZDA	CX-5	Turquoise	anti-lock brake system (ABS); 	1745.11	user25	5/19/2021	Truck						5	Electric	0.5		user23	6/24/2021	2263.75	C4721215300
+6HTUBB0KRJ1407886	2013	Mercedes-Benz	CL500	Blue	power train; best suspension; 	2160.72	roland	11/27/2020	Convertible		3	Windblocker							user08	5/8/2021	2287.66	24-1651361
+6MEJXRJQ5O7025667	2003	Cadillac	ESCALADE	Claret	overdrive; 	2573.46	user27	8/5/2020	Van									1	user01	12/27/2020	3293.82	D7197177558
+6N4TXWYA8PC030787	2010	Lexus	IS F	Beige,Black	super new ignition system; 	1705.58	user09	1/20/2021	SUV				2	FWD					roland	2/12/2021	1437.11	C1874682232
+6OAIXJI3HM8002365	2021	Porsche	CAYMAN	Copper,Rose,Tan	automatic torque converter; 	6186.1	user16	9/3/2020	SUV				1	4WD					user21	11/12/2020	6411.85	D9983832656
+6OGX85SZXHN770887	2020	Acura	ILX	Gray	autotachometer; 	6722.11	user20	4/30/2020	SUV				1	RWD					user08	10/1/2020	9580.36	A5224016442
+6ONV5QC8SUL616218	2013	Kia	OPTIMA	Gray	wide transaxle; 	4319.61	roland	3/23/2021	SUV				2	RWD					user32	4/5/2021	6045.3	C2477021110
+6OT5NQTDYEP073810	2013	Volvo	XC70	Bronze,Rose	best possible traction; 	3369.1	user14	12/18/2020	Van									1	user08	4/29/2021	3897.01	A7656008373
+6PM6SVF3CVX504384	2012	INFINITI	QX56	Beige	best oil pump; 	4488.9	user27	4/24/2021	Car	4									roland	6/30/2021	4084.16	83-4401879
+6WN3XFUV8Z6152313	2008	Mercedes-Benz	R320	Gray	high differential; 	4510.97	user18	3/1/2021	Convertible		3	Open car and roadster							user19	5/5/2021	4796.55	A1919786459
+73UHS1Z0DKT693966	2010	smart	FORTWO	Beige	very hard struts; innovative air bags; 	4201.18	user03	4/1/2020	Car	4									user08	5/24/2021	5931.14	A9501753054
+75QOYF2KTKC266578	2003	Subaru	BAJA	Purple	ultra new transmission; 	1844.24	user09	4/2/2020	Convertible		2	Tonneau cover							user19	7/27/2020	3023.43	C7966010586
+75VPS26W4QR001314	2013	Nissan	X-TRAIL	Green	very hard struts; 	1175.09	user14	6/26/2021	Van									0	user23	6/26/2021	1667.87	D3600877411
+7754T022K8E889647	2017	Honda	CRF125FB BIG WHEEL	Turquoise		10546.56	user16	9/7/2020	Truck						2		2		roland	11/2/2020	9114.65	D2440363626
+7BTXGZIH8NM209911	2010	Acura	MDX	Beige		1688.35	user05	12/12/2020	Car	4												
+7I0HJOT53IT807735	2013	Dodge	GRAND CARAVAN	Claret	minivan; engine displacement; wide transaxle; 	1043.48	user26	12/29/2020	Van									0				
+7I23Y4E5RZ7655655	2004	Dodge	DURANGO	Silver	best possible traction; super new ignition system; 	2533.66	user05	4/20/2021	Convertible		3	Rear window							user06	7/1/2021	4480.69	B7649567338
+7KAYIOOSAYZ172761	2016	Alfa Romeo	4C	Yellow	best possible traction; 	3543.33	user05	9/24/2020	SUV				4	AWD					user06	12/6/2020	5442.24	D4535340558
+7PFC2F3KDN7669570	2001	Lamborghini	DIABLO	Purple	innovative air bags; 	5138.38	user14	5/28/2020	Truck						5	Folding	1.5		user06	6/2/2021	5026.36	94-2432098
+7PL0G4ZAASO991142	2018	Ford	FOCUS	White	wide chassis; 	7174.13	user14	2/20/2021	SUV				1	4WD					user04	2/28/2021	6840.39	A0943466017
+7U1WAVAPBF2458008	2011	Chevrolet	COLORADO	Green	air filtration system; 	1474.42	user11	1/27/2020	Truck						5	Hinged	1		user22	6/24/2020	1476.96	B3560453812
+7WLNYOXO5P1099432	2006	Lotus	EXIGE	Gold	coupe; 	4789.06	user09	2/7/2021	Convertible		2	Retractable hardtop							user21	6/20/2021	6102.2	A7974811992
+7WNL4MP2M8Q856796	2003	Hyundai	HMD 260	Rose	best suspension; 	2367.42	user27	3/2/2020	Car	4									user08	12/27/2020	3207.51	D9868570966
+7XKJRIZ0285479470	2005	Dodge	SX 2.0	Purple		4140.89	roland	10/3/2020	Van									0	user01	11/30/2020	3970.6	85-3032731
+7XQG7TYXPF4141639	2006	Nissan	PATHFINDER	White	superturbocharger; 	3402.17	user09	1/24/2021	Car	2									user21	4/17/2021	3467.96	17-6105195
+83L3CNAESZD022827	2008	Mitsubishi	FE125	Tan	very hard struts; 	1104.39	user20	4/29/2020	Truck						5	Folding	4		user06	3/27/2021	1210.37	B3135098307
+88PR6O51FFE411202	2011	Volkswagen	TOUAREG	Aluminum	disc brake; power train; 	1655.83	user27	5/20/2020	SUV				2	FWD								
+88WPSV7V73S064896	2014	Honda	CB500F ABS	Beige	original equipment manufacturer (OEM) parts; 	2130.55	user16	2/23/2021	SUV				3	RWD					user06	4/25/2021	2547.31	C7720975467
+8AWRIWHIOB7240899	2009	Mitsubishi	FK260	Silver	strong muffler; 	1187.66	user16	11/6/2020	Truck						3		3.5		user06	5/14/2021	2338.21	C5232024518
+8CQ47AK2LFM523345	2008	Jeep	PATRIOT	Copper	can be used as sports car; 	1501.48	user18	3/4/2020	Car	2									roland	8/6/2020	1216.14	C2527866885
+8DPBPQ225LD772299	2016	Lexus	RC350	Orange		7278.85	user03	3/2/2021	SUV				2	AWD					user23	4/5/2021	7651.56	B9479074244
+8G3LUP7YDIR245248	2004	Bentley	ARNAGE	Copper	crankcase; 	1085.89	user07	6/3/2020	SUV				2	FWD					user32	6/17/2021	3013.04	B4901838775
+8MRNKO3ZQ1T953377	2015	Jaguar	XJ	White	rear wheel drive; 	2202.21	user03	9/13/2020	Convertible		2	Safety							user23	11/27/2020	2272.39	C6938144357
+8RS6MDUB5YB272372	2004	Rolls-Royce	PHANTOM	Orange	minivan; high block; 	1706.99	user03	12/28/2020	SUV				1	AWD					user19	2/20/2021	1872.88	D3405738399
+8X1ZMNTEG8V581855	2001	GMC	W3500 FORWARD	Red	safe oil ring; 	1951.52	user07	6/19/2021	Convertible		2	Retractable hardtop							user06	6/23/2021	2018.77	B7649567338
+8XDGH5D6D3X672052	2010	Jaguar	XK	Turquoise	sturdy rear axle assembly; 	1812.08	user05	2/27/2020	Car	4												
+AAVNFB47ECV285025	2002	Freightliner	FL70	Beige	coupe; drive shaft; 	2247.67	user26	7/19/2020	SUV				4	4WD					user23	5/1/2021	2516.03	C8521553415
+AH0SCOKRL8K489145	2002	Volvo	V40	Aluminum,Cream,Purple	supernew catalytic converter; 	2563.52	user25	1/3/2020	Van									1	roland	4/18/2020	2502.33	C8180681803
+AIMDPZ2KMND734997	2013	INFINITI	QX56	Rust	hatchback; safe oil ring; 	4488.9	user26	8/28/2020	Van									1	user19	10/18/2020	4604.62	83-4401879
+AJ2JSVDYM0O897692	2006	smart	FORFOUR	White		1109.16	user25	4/21/2020	Convertible		3	Open car and roadster							user21	5/3/2020	1328.51	D6598074250
+AJLR6IODVV3757973	2003	Toyota	TUNDRA	Cream		1763.04	user20	10/12/2020	Convertible		2	Textile							user23	4/21/2021	2280.7	61-1100139
+AKKYTP5OU6P046110	2012	Subaru	FORESTER	Maroon	modern dashboard; 	4410.06	user18	4/25/2020	Truck						5	Snap	1					
+AKYPYSGLLFN832831	2001	Aston Martin	VANQUISH	Orange		5080.04	user03	10/6/2020	Truck						3	Folding	3.5		user08	2/14/2021	6727.05	D4949425401
+AM7FZWLEUHK307952	2002	Chrysler	PT CRUISER	Green	fuel injection; 	1565.29	user03	1/1/2021	Van									1	user08	2/2/2021	2966.77	C2486363271
+AQ0GIPZWT34903578	2009	Subaru	FORESTER	Turquoise	power train; 	10689.99	user27	8/5/2020	Van									0				
+AQ744PRF6TR968003	2005	Porsche	BOXSTER	Rust,Tan	normally aspirated; drum brake; anti-lock brake system (ABS); 	3077.71	roland	3/16/2020	Convertible		3	Tonneau cover							user06	9/30/2020	2990.78	61-1100139
+AUQIR5H4HRE068152	2010	Ram	DAKOTA	Metallic		2960.28	user05	7/24/2020	Truck						2	Roll-Up/Rolling	2.5		user08	5/16/2021	4619.28	B5647927687
+AX3YE647F3S125807	2021	BMW	650I GRAN COUPE	Metallic	drive shaft; 	6666.1	user14	1/29/2020	Car	4												
+AXJCCI3KSTC454653	2002	Ford	E-350 ECONOLINE	Cream		2573.9	user20	5/5/2021	Convertible		2	Rear window										
+AYMY58PYO6D565858	2008	Bentley	ARNAGE	Green	pickup; 	1085.89	user27	1/21/2020	Truck						4	Tool Box	3					
+AZ1R666ZIWS777011	2006	SAAB	9-2X	Gray		1822.31	user18	4/11/2020	Van									0	user01	6/23/2021	2357.37	D5515926273
+AZA8YX5O3PY967382	2004	Jaguar	XKR	Claret	front axle assembly; 	3936.03	user27	9/6/2020	Convertible		2	Rear window							user22	4/7/2021	4656.09	94-3886618
+B4HYVLVNMCG170801	2018	Rolls-Royce	WRAITH	Pink	wide cam; 	1973.54	user14	4/16/2021	Van									0	user21	4/23/2021	2452.49	B5647927687
+B6MT5EQQSFX854507	2017	Kia	FORTE KOUP	Black	high volume cylinder; 	1387.34	user03	11/23/2020	SUV				4	4WD					user32	6/26/2021	2005.85	D8356291718
+B6RK4XX6O4W718066	2005	Freightliner	SPRINTER 3500	Beige,Maroon,Metallic	gap; 	5686.99	user20	11/20/2020	Convertible		2	Textile							user08	11/26/2020	6552.95	37-8167653
+B8R5GVJM8U6577878	2005	Lotus	ELISE	Orange	no backfire/backfiring; 	3400.69	user20	12/3/2020	Truck						5	Snap	1.5		user10	4/24/2021	3854.01	A6562833622
+BEE6XDILLEY125933	2020	Lexus	GX460	Purple	small spark plug gap; 	2720.45	user03	4/28/2021	Van									1	user08	6/21/2021	3105.68	19-3136322
+BEY7LC1EAWE388564	2001	Audi	A6 QUATTRO	Purple		1682.89	user05	2/10/2021	SUV				3	FWD								
+BFTNOGUH70U239681	2011	Mitsubishi	FE125	Tan	anti-lock brake system (ABS); 	1325.93	user16	8/20/2020	Truck						4	Snap	4		user23	6/25/2021	1687.03	B1302071867
+BJBHBZBQT6J386548	2009	Mitsubishi	FE145CC	Navy	high volume cylinder; wide chassis; 	1821.05	user27	6/20/2020	SUV				4	4WD					user01	3/12/2021	2418.86	C4785358885
+BNWVPB0TCZ5369050	2002	Audi	S3	Turquoise	disc brake; 	5624.89	user05	7/28/2020	Van									1	user22	10/27/2020	5540.92	C9883149255
+BO6V8DRDEV2627679	2017	Toyota	CAMRY	Blue	small spark plug gap; 	4299.84	user05	1/29/2021	Car	2									user19	3/17/2021	4092.19	64-4494473
+BQF4UKW5KVG474674	2018	INFINITI	Q60	Beige	sport utility vehicle-SUV; 	3048.54	user14	2/27/2020	SUV				1	RWD								
+BROGP21GT25414842	2007	Hyundai	ACCENT	Orange	rack and pinion steering; 	4873.55	user16	1/21/2021	Truck						4	Electric	1		user21	5/18/2021	4729.32	A1652643602
+BSAQRUZ4AQV214478	2011	Mercedes-Benz	GL350	Rose	sturdy rear axle assembly; 	2192.52	user09	5/5/2020	Convertible		2	Detachable hardtop							user32	8/6/2020	3220.03	A0943466017
+BTDUIDGMG7U029512	2004	Freightliner	CLASSIC XL	Maroon,Metallic	superturbocharger; 	2937.38	user16	5/25/2020	SUV				2	4WD								
+C15AQKT03T5311862	2001	Acura	EL	Cream	broad wheelbase; 	1204.33	user14	2/6/2020	Car	2									user06	2/4/2021	2738.42	C2477021110
+C2JK28BV6S1248001	2007	Chevrolet	SILVERADO 3500 HD	Gray	anti-lock brake system (ABS); 	2888.35	user16	5/26/2021	Truck						2	Snap	0.5		user22	6/22/2021	3032.71	07-6913915
+C2SS48P7UYI831488	2016	Jaguar	XFR	White	sturdy rear axle assembly; hydraulic brakes; 	3974.39	user18	3/1/2021	Truck						2	Electric	3.5		user21	5/9/2021	5294.39	96-9587311
+CF4BITIJB4X481530	2009	SAAB	9-7X	Gray	normally aspirated; 	4893.46	user14	7/21/2020	Convertible		3	Safety										
+CJJ5SBM35DI082557	2001	Mercedes-Benz	CL55 AMG	Rose	innovative air bags; 	3555.84	user18	6/5/2021	Truck						2	Roll-Up/Rolling	3		user22	6/15/2021	4493.39	D2440363626
+COPRS63UGGH984959	2007	Kia	AMANTI	Blue	automatic safety features; 	5733.81	user07	5/3/2020	SUV				2	4WD					user21	6/2/2021	6518.6	64-7173397
+CQ7SBSA7JFD966361	2019	Audi	Q3	Bronze	strong muffler; 	5917.97	roland	12/19/2020	SUV				4	FWD					user08	1/29/2021	7223.32	D6887650752
+D1YNI86BAFG479600	2005	MINI	COOPER	White	sturdy rear axle assembly; 	2531.54	user14	11/29/2020	Truck						5	Roll-Up/Rolling	3		user21	11/30/2020	3140.83	B4747383483
+D44SOXOWG6K878614	2009	Ferrari	612 SCAGLIETTI	Copper	disc brake; 	2452.04	user27	12/28/2020	SUV				4	AWD					user23	6/16/2021	3200.51	C5820441797
+D5B2TT8TOPO661297	2011	Lotus	EVORA	Bronze	great stabilizer bar; sturdy rear axle assembly; front wheel drive; 	4437.13	user07	6/19/2021	SUV				4	FWD								
+D5SBJR5NFWQ090407	2013	Lexus	RX350	Green	automatic transmission; great stabilizer bar; sturdy side impact beams; 	2256.2	user03	6/5/2020	Truck						3	Roll-Up/Rolling	3.5					
+DN6MOZGET1A930783	2013	McLaren	MP4-12C	Claret	front wheel drive; front wheel drive; 	2758.95	user25	12/15/2020	SUV				3	RWD								
+DOTCTR3JGMC599750	2003	Lincoln	TOWN CAR	Bronze	fuel injection; 	3488.19	user14	1/1/2021	Convertible		3	Detachable hardtop										
+DQ8KBM24EHR977367	2003	Volvo	S60	Tan	detail; Automotive Service Excellence (ASE); strong muffler; 	2766.83	user25	2/16/2020	Convertible		2	Windblocker							user23	2/18/2020	4283	D3769942713
+DQXE6GO6G5V238732	2013	GMC	SIERRA 3500 HD	Gold		3899.84	user14	6/15/2020	Truck						3	Hinged	2		user06	2/6/2021	4869.24	17-6105195
+DSQZ3BMA8BE893479	2010	Buick	ENCLAVE	White	broad wheelbase; hydraulic brakes; crankcase; 	1132.35	user27	2/1/2020	Car	4												
+DU3RGWYKW1Y406090	2013	INFINITI	FX50	Bronze	high torque; 	1565.41	user11	3/20/2021	Convertible		3	Rear window							user10	4/16/2021	2365	B9701873535
+DVKLB2SJQZ4928063	2006	Aston Martin	VANQUISH	Brown	drive shaft; 	5080.04	roland	5/21/2020	Van									0	user08	8/6/2020	5403.06	B3114961337
+DXWOU1SERL5871765	2001	Chrysler	PROWLER	Gold,Red	no redline; can be used as sports car; 	2950	user11	12/22/2020	Van									1	user06	3/17/2021	3774.72	D8549360259
+E0TRL43QPJZ815034	2004	Buick	RAINIER	Copper	hydraulic brakes; 	1357.72	user14	3/20/2021	Convertible		2	Rear window							user32	5/15/2021	1969.09	C6938144357
+E4QKUQMW0P8911175	2006	INFINITI	M35	Rose	innovative air bags; 	1416.37	user07	5/8/2020	Convertible		3	Safety							user06	8/29/2020	2446.46	A3642699140
+E7IYDL7OWFB606746	2008	Alfa Romeo	GT	Purple	great rpms; 	1113.78	roland	1/1/2021	Van									0	user08	4/17/2021	1217.24	13-6202155
+E7ONFGBD22A333203	2013	Lincoln	MKT	Beige,Gold,Pink	ultra new transmission; 	1276.66	user25	2/23/2021	Van									0	user06	4/1/2021	1459.41	94-2432098
+EHD6YVSC102433673	2011	Land Rover	DEFENDER	Black	great engine; 	1408.93	user16	5/2/2021	Car	4									user23	6/11/2021	2520.7	D0985294389
+EL1MM2S516M653465	2010	Porsche	BOXSTER	Silver	superturbocharger; 	3077.71	roland	5/19/2021	Convertible		3	Rear window							roland	6/27/2021	3279.82	B7932999712
+EQBIYSJUAOQ651323	2009	MINI	COOPER	Bronze	unibody construction; electronic transmission; 	2531.54	user09	7/21/2020	Truck						4	Tool Box	2		user22	12/15/2020	3715.4	A0943466017
+EQBPALH70WZ127691	2002	Bentley	AZURE	Pink	hydraulic brakes; 	1136.21	user03	6/10/2020	Car	3									user08	12/16/2020	1541.38	B4222493197
+ESP5Z0140W6022687	2014	Acura	ILX	Rust	electronic transmission; 	1971.29	user03	5/26/2021	Van									0	user23	6/4/2021	3290.94	C8180681803
+EZLHZ7DD2ZE033058	2020	Alfa Romeo	GIULIETTA	Aluminum,Bronze,Tan	best possible traction; 	2956.84	user03	7/24/2020	SUV				2	FWD					roland	4/23/2021	2423.95	A2150826458
+F1MEI0IF6FC764593	2007	smart	FORTWO	Rust	ultra new transmission; 	4201.18	user16	6/25/2020	Van									1	user04	11/15/2020	4916.68	C2486363271
+F3DB4T10CH7242347	2004	Maserati	QUATTROPORTE	Green		2062.89	user25	3/3/2021	Car	3									user10	6/12/2021	2278.8	C2665896847
+F5URJ1VH2JM567741	2013	Lexus	RX450H	Beige	high differential; 	2457.98	user07	2/2/2020	Car	3												
+F63IMMDNGBM441376	2004	Acura	EL	Gray	active safety features; 	1204.33	user09	12/16/2020	Truck						2	Tool Box	2.5		user08	4/20/2021	1785.26	A4114790699
+F66S3YWRFV8712696	2004	Ford	ECONOLINE	Metallic	supernew catalytic converter; 	3896.03	roland	1/7/2021	Car	4									user21	6/28/2021	4038.54	B3560453812
+FB4IGVK46ES832414	2010	Lotus	EXIGE	White	Automotive Service Excellence (ASE); sport utility vehicle-SUV; 	9815.67	user20	11/5/2020	Convertible		2	Open car and roadster							user19	6/7/2021	10530.24	C2486363271
+FC3M4R3UFSZ782289	2010	INFINITI	M45	Aluminum	safe oil ring; 	2176.53	user09	11/18/2020	Car	2									user32	2/19/2021	3950.08	B5647927687
+FDMBXB0I4YT845555	2002	Freightliner	SPRINTER 3500	Pink	high volume cylinder; 	5686.99	user27	2/3/2020	Van									1	user23	9/3/2020	6776.53	A5224016442
+FH1HMJOS4ZT144716	2011	Kia	FORTE KOUP	Cream	no redline; 	1387.34	user18	6/12/2021	Van									1	user08	6/18/2021	2302.57	D0751253658
+FHR4SV2BZ3O982607	2012	Mercedes-Benz	ML63 AMG	Claret	hydraulic brakes; 	3760.7	user07	5/24/2021	Van									1	user10	7/1/2021	3613.56	C0315829968
+FL02FHV2GJ3959589	2019	Aston Martin	V8 VANTAGE	Navy	rack and pinion steering; 	3976.03	roland	5/28/2021	Car	3									user01	6/8/2021	4619.33	D8549360259
+FLL6IM0OT4U839347	2021	Acura	ILX	Gray	no backfire/backfiring; minivan; superturbocharger; 	1971.29	user09	3/1/2020	Convertible		2	Rear window							user06	8/3/2020	3720.3	B2503869534
+FMETZSQTD6D874803	2003	Ferrari	456 M GTA	Gold,Maroon,Red		2445.32	user14	11/14/2020	Car	2									user01	1/8/2021	2638.74	B0667673329
+FRT45IU5U10388263	2010	Lotus	EVORA	Brown	great engine; 	4054.4	user25	1/20/2020	SUV				4	4WD					user06	2/9/2020	4531.79	D5564091609
+FSWKSU6C60V569652	2019	Volvo	S80	Aluminum	engine displacement; 	2654.27	user14	4/25/2020	Truck						4	Hinged	2		user23	5/16/2020	2799.83	D5493718870
+FY32Q1YOL3Y555579	2011	Mercedes-Benz	B200	Copper	manual transmission; sturdy rear axle assembly; 	1145.6	user11	10/8/2020	Car	2												
+G1P06L4HJ6H584223	2006	Chevrolet	EQUINOX	Metallic	great engine; 	2270.31	user20	2/6/2020	Truck						4		2		user04	12/20/2020	2258.3	C6938144357
+G3TV1J6XAGV702888	2007	Chrysler	CROSSFIRE	Brown	automatic transmission; 	1594.31	user27	1/27/2020	SUV				1	4WD					user04	1/22/2021	2789.89	C4785358885
+G4D6F6AOVRR018788	2008	Mercedes-Benz	SL550	Turquoise	four-wheel drive; high volume cylinder; 	4563.49	user14	9/14/2020	Car	4									user22	3/29/2021	5379.77	B1302071867
+G4HBX46SPAS103801	2005	Lincoln	LS	Tan		5315.01	user26	7/1/2020	SUV				4	AWD					user23	1/6/2021	5079.39	D3639339127
+G76Q0Y2PH58423466	2002	Lotus	ESPRIT	Cream,Orange	minivan; superturbocharger; no understeer; 	3858.12	user03	7/20/2020	Van									0	user08	5/25/2021	3718.33	A2356695475
+GD0BFGM17AX836671	2002	Freightliner	MT45	Cream	convertible; 	6348.39	user07	12/1/2020	SUV				4	FWD					user06	3/17/2021	6296.55	D9726048247
+GEL2DE0T8I5148201	2003	Freightliner	FC80	Green	high volume cylinder; high quality carburetor; 	2168.4	user03	4/28/2020	Car	4									user23	1/2/2021	2061.8	56-2291887
+GESZPBX67EE486101	2004	Chevrolet	CHEVY	Gray		2389.92	user20	6/4/2020	Convertible		2	Safety							user32	6/2/2021	2291.9	51-3984561
+GGEWPOMLDT6438413	2011	Jeep	WRANGLER	Aluminum,Turquoise	front axle assembly; 	4194.74	user03	3/21/2021	Truck						2	Retractable	3.5		user21	4/25/2021	4818.38	C0659557688
+GHQ048ABH46553056	2005	Freightliner	SPRINTER 3500	Cream	sturdy rear axle assembly; air filtration system; 	10671.07	user27	3/13/2020	Truck						4	Hinged	3.5		user19	5/8/2021	11249.2	83-4401879
+GJN18I5K5B7472150	2013	Buick	VERANO	Gray,Rose	overdrive; 	1776.43	user07	10/8/2020	Truck						4	Retractable	4					
+GJNRBGU63NL045645	2008	Toyota	HIACE	Black	best suspension; 	1211.47	roland	3/11/2021	SUV				2	AWD								
+GMKQULBE7X4992195	2007	Chrysler	CIRRUS	Metallic,Orange	great stabilizer bar; best possible traction; 	2500	user14	2/28/2020	SUV				1	FWD					user19	11/22/2020	3147.88	D6887650752
+GO1G8UWZ6CC394395	2017	smart	FORTWO	Rose	high block; 	4201.18	user26	11/10/2020	SUV				4	FWD					user01	5/1/2021	4055.22	A9499931848
+GTW0MIZ1NOH019692	2008	Lamborghini	MURCIELAGO	Gold	front axle assembly; 	3704.7	user07	12/8/2020	Car	3									user23	12/29/2020	5027.5	C1301696678
+GV2UWRP5K1E172643	2002	Audi	S8	Silver	original equipment manufacturer (OEM) parts; 	4190.23	user05	12/8/2020	Car	2									user06	5/23/2021	4057	B7250129830
+GVAEGKOKAKD311144	2021	Alfa Romeo	4C	White	wide chassis; 	21038.87	roland	3/27/2021	Car	3									user22	4/29/2021	21901.6	85-3032731
+GVPGI5Z60L1544905	2005	smart	FORFOUR	Blue		1825.68	user03	3/1/2020	Van									1	user08	5/4/2020	2050.45	52-9011162
+GXF4VJG82KW841092	2002	Bentley	AZURE	Tan	wide transaxle; 	1136.21	user27	3/2/2020	SUV				3	RWD					user08	4/1/2020	1838.62	A9824759625
+H05EDNWPRPP592467	2002	Volkswagen	GOLF	Rust	wide cam; front axle assembly; 	2835.33	user09	6/12/2021	SUV				4	RWD								
+H28C7JTLHKS979441	2008	Mercedes-Benz	ML550	Red	superturbocharger; 	6318.78	user18	3/28/2020	Convertible		2	Retractable hardtop							user04	3/26/2021	6382.3	B4747383483
+H2G3FZT7PBC532016	2002	Audi	S8	Navy	power train; 	4190.23	user11	5/21/2020	Car	2									user10	3/1/2021	4375.15	D8269311874
+H5GMOZRUP8T165905	2003	INFINITI	M45	Maroon	small spark plug gap; great engine; crankcase; 	2176.53	user07	4/6/2020	Van									0	user01	6/12/2020	2444.76	C8180681803
+H6IZE44IC6O731141	2003	Chrysler	VOYAGER	Tan		1561.77	user11	4/16/2021	Van									0	user22	4/30/2021	2385	24-1651361
+H7A5VIFFP1A667799	2014	Toyota	RAV4	Green,Silver	hydraulic brakes; 	4437.94	roland	4/11/2021	Convertible		3	Open car and roadster							user19	6/14/2021	4543.43	A4195059665
+H7QI1RIE4PV927179	2013	Chevrolet	CRUZE	Navy	sturdy rear axle assembly; 	1525.28	user16	1/8/2020	Car	4									user22	10/11/2020	2655.86	B8426722523
+H7YXEEZ5YBN321572	2013	Lexus	LS460	Copper		2434.04	user14	9/10/2020	SUV				3	4WD					user22	4/25/2021	2995.64	C5564885117
+HBLEGCX5QOM344604	2010	Jeep	PATRIOT	Claret	superturbocharger; 	3908.65	user26	12/25/2020	Convertible		2	Rear window							user19	12/30/2020	3744.47	D3600877411
+HEXK80DLLFD126794	2010	Acura	ZDX	Pink	best suspension; pickup; 	1811.92	user18	5/23/2021	Car	4												
+HI8BNKPUAJE220277	2017	Jaguar	XK	Orange	drum brake; good piston; small spark plug gap; 	3044.29	roland	12/28/2020	Van									0	user08	1/17/2021	3864.6	A7135730876
+HOVBLXCQ8IF716757	2008	INFINITI	FX45	Claret		2580.48	user11	4/29/2020	Convertible		3	Rear window							user04	3/18/2021	2868.4	42-4075529
+HTKXE18G4LM642663	2009	SAAB	9-7X	Cream	drive shaft; 	4893.46	roland	11/30/2020	Convertible		2	Retractable hardtop							user01	2/18/2021	4791.55	C8565047824
+HXAALKJLHP8932836	2005	Lexus	LX470	Turquoise	broad wheelbase; 	1647.56	user11	1/5/2021	Convertible		2	Detachable hardtop							user06	2/16/2021	3345.02	C5820441797
+HYJR3P5MJII589050	2005	Ferrari	SUPERAMERICA	Metallic	high quality carburetor; coupe; oversteer; 	1887.17	roland	4/16/2020	Truck						3	Snap	2		user19	12/4/2020	2237.55	D9868570966
+HZM5D0NLDRM399010	2005	Mitsubishi	MONTERO	Beige	no redline; 	1026.96	user11	11/25/2020	SUV				1	RWD					user10	1/24/2021	1951.61	D6887650752
+I7WFVKAWQYK253909	2003	Nissan	TSURU	Silver	station wagon (Also known as wagon.); 	4216.82	user25	12/14/2020	Convertible		2	Tonneau cover							user22	12/31/2020	5023.7	B6594307920
+I8Y14BPSZXY404516	2011	Kia	SORENTO	Purple	super new ignition system; 	1921.34	roland	6/14/2020	Convertible		2	Safety							roland	4/4/2021	3228.81	B1302071867
+IDCSBYUW1ML481404	2011	MINI	COOPER COUNTRYMAN	Blue	drum brake; 	1649.32	user20	10/3/2020	Convertible		2	Open car and roadster										
+IG8PWUT4ME1344557	2006	Dodge	DAKOTA	Blue	automatic torque converter; no backfire/backfiring; 	2960.28	user16	3/13/2020	Convertible		2	Textile							user08	1/22/2021	4172.42	C2486363271
+IGRV02IHT73140725	2005	smart	FORTWO	Red	electronic transmission; 	4201.18	user05	2/24/2020	Truck						5	Hinged	2		user32	8/14/2020	5343.14	D1938774729
+IH28F14QLL7256787	2011	Dodge	DURANGO	Claret	minivan; high block; 	2533.66	roland	4/10/2021	SUV				2	FWD					user32	6/4/2021	2677.57	D8992895517
+IH8QCS8SA1W662224	2008	Aston Martin	V8 VANTAGE	Rust	innovative air bags; 	3976.03	user03	2/20/2021	Convertible		3	Retractable hardtop										
+IHRJFBVFNUW829342	2008	Honda	AQUATRAX F-15X GPSCAPE	Cream	gap; high volume cylinder; anti-lock brake system (ABS); 	3070.98	user18	7/31/2020	Truck						4	Snap	1.5		user01	12/26/2020	3548.04	35-7670320
+IKDJI2NJR3A634690	2011	MINI	COUNTRYMAN	Brown		2103.2	user09	11/23/2020	SUV				3	AWD					roland	2/25/2021	1756.83	B9986557803
+IMBUXHM60X6888380	2005	Volvo	XC70	Purple	wide transaxle; 	3369.1	user27	7/13/2020	Van									0				
+IQS5QPGTG0T954170	2019	Kia	SEDONA	Cream	anti-lock brake system (ABS); air filtration system; 	3915.86	user09	1/15/2021	Convertible		3	Retractable hardtop							user22	1/20/2021	5261.7	D2205967267
+IRDWE0OJSPW783332	2013	McLaren	MP4-12C	Turquoise	great stabilizer bar; 	2758.95	user05	1/23/2020	Car	2									roland	6/30/2020	2289.93	D5515926273
+J4OTOP87QJC586997	2009	Lexus	SC430	Black	manual transmission; 	1459.24	user05	9/23/2020	Van									0	user01	4/12/2021	2655.23	D6598074250
+J55HPHW22R1754593	2007	Rolls-Royce	PHANTOM	Green	rack and pinion steering; 	1706.99	user20	6/27/2021	Van									1				
+J5DUNEJPB5K495242	2002	Chevrolet	ZAFIRA	Maroon	drive shaft; modern dashboard; 	4283.61	user27	9/15/2020	Truck						2	Tool Box	1.5		user21	11/22/2020	4406.34	D5493718870
+J6OFP8V1ZIU680463	2007	Ferrari	599 GTB	Green	disc brake; 	3491.52	user09	10/15/2020	SUV				4	AWD					user32	6/4/2021	3522.96	37-8167653
+J830SLTQBFU863672	2010	Acura	MDX	Purple	ultra new transmission; 	1688.35	user07	11/27/2020	SUV				2	RWD								
+JFV8SJWZ8LP113703	2012	Lincoln	NAVIGATOR	Copper,Turquoise	rear wheel drive; 	1658.83	user16	7/2/2020	Car	4									user10	6/8/2021	2736.82	D6598074250
+JGJDNZFK42R045945	2009	Dodge	RAM 5500	Silver		6950.2	user07	2/20/2020	Truck						3	Tool Box	1.5		user04	4/11/2020	7961.64	C6563700744
+JN60KNMSBK2322558	2006	SAAB	9-2X	Gold		1822.31	user14	2/6/2020	Car	4									user21	3/9/2021	3092.85	D3769942713
+JO02RNGT1O8396523	2006	Jeep	LIBERTY	Green	strong muffler; best suspension; wide cam; 	2457.24	user18	4/25/2020	Convertible		3	Tonneau cover							user32	5/2/2020	2983.59	D7197177558
+JOWEZ54DY63622106	2011	Nissan	X-TRAIL	Aluminum,Orange	manual transmission; 	1175.09	user27	1/9/2020	SUV				3	4WD					user10	4/4/2021	1625.09	17-6105195
+JOX151ZR3GE955194	2007	Honda	NPS50 RUCKUS	Red	front axle assembly; wide chassis; detail; 	1007.47	user11	1/13/2021	Truck						3	Folding	2		user22	5/11/2021	3045.34	D3516184517
+JQNHRUG2454456763	2010	Acura	RDX	Maroon	drum brake; 	1364.7	user16	1/8/2021	Car	2									user32	4/20/2021	1426.91	C0659557688
+JS3TNLHZADY983948	2008	GMC	C4500 TOPKICK	Green		1994.77	user07	2/14/2020	Truck						3	Hinged	3		user06	10/19/2020	2611.67	B1905472111
+JTQ8ES8FFQS897370	2008	Jeep	COMPASS	Silver	can be used as sports car; 	1277.09	user03	2/14/2020	Van									1	user04	1/26/2021	1464.03	D0369069698
+JWXF66JCYHG675212	2008	Honda	CBR1000RR	Blue		1281.57	user14	2/25/2020	Convertible		3	Tonneau cover										
+JXYX45O20KZ533744	2002	SAAB	9-5	Silver	best suspension; 	1177.06	user05	2/28/2021	Car	3									user01	5/29/2021	1318.12	A2549561818
+JYK127G1ZR6964275	2003	Honda	TRX350TM FOURTRAX RANCHER	Orange	original equipment manufacturer (OEM) parts; 	4014.41	roland	2/21/2020	Car	3									user32	11/1/2020	5217.83	D5564091609
+JYOF3P3XBEW904056	2006	Maserati	QUATTROPORTE	Navy	no understeer; 	2062.89	user09	2/5/2020	SUV				4	4WD					user19	2/25/2021	2947.03	D9622429189
+K1LNBMVU8BB464447	2012	Tesla	S	Pink	no backfire/backfiring; 	2654.48	roland	1/3/2020	Convertible		2	Retractable hardtop							user04	9/30/2020	4033.24	A7336665337
+K2M25QOYYPY944058	2007	SAAB	9-5	Rust	hatchback; 	1177.06	user11	3/6/2021	Convertible		2	Textile							user23	4/19/2021	2574.71	A2356695475
+K3E7PBHMZQD422776	2006	Kia	SEDONA	Claret	very hard struts; 	3915.86	user14	1/21/2020	Car	2									user23	1/28/2020	3957.79	B0529778191
+K8Z0TU6ENFN053742	2007	Jaguar	XK	Aluminum	great engine; 	1812.08	user18	1/29/2021	Car	2									user22	6/5/2021	2125.93	A7476663773
+KABPXCO5NG6346564	2020	McLaren	P1	Rose	modern dashboard; 	2175.52	user11	2/23/2021	Car	4									user01	6/9/2021	2386.79	C2527866885
+KAYU2ZM1IDK808166	2011	Chevrolet	CAPRICE	Aluminum,Red,Turquoise	gap; drum brake; crankcase; 	1842.09	user25	6/19/2021	Convertible		3	Tonneau cover										
+KBXXCK3OQ7B192491	2015	Ram	PROMASTER CITY	Green	modern dashboard; 	2766.1	user27	11/17/2020	Truck						2	Electric	2.5		user32	3/14/2021	2638.16	97-1463799
+KDDOFMA5505536025	2001	Honda	CR500R	Green	unibody construction; 	1135.21	user05	9/16/2020	Truck						3	Hinged	1.5		user19	5/14/2021	2452.75	B3135098307
+KEJ5NNEZM57998731	2010	Lincoln	NAVIGATOR	Silver	good gear; best oil pump; 	1658.83	user07	3/16/2021	Convertible		2	Windblocker							user04	5/16/2021	1886.6	B4747383483
+KEJEBILOGP8152100	2012	McLaren	MP4-12C	Copper	high differential; 	2758.95	user26	2/1/2020	SUV				4	AWD					user01	8/4/2020	3684.43	A2356695475
+KFDWFBUV5X0109490	2007	FIAT	PALIO	Rust	station wagon (Also known as wagon.); 	2108.79	user14	1/24/2020	Truck						3		3.5		user22	10/12/2020	2168.94	D2440363626
+KN4X2AB146B341868	2007	Kia	SPECTRA5	Gray	rack and pinion steering; 	2159.91	user25	5/22/2021	Truck						2	Roll-Up/Rolling	1					
+KNYT4XAJ1KK791804	2013	INFINITI	M35H	Black	pickup; 	1304.72	user03	1/12/2020	Truck						2	Hinged	4					
+KQNPAEA80G5480328	2013	Subaru	BRZ	Turquoise	can be used as sports car; overdrive; 	4335.44	user27	4/4/2020	SUV				3	RWD					roland	4/22/2021	6152.71	C2477021110
+KRS3DYJP4LD943857	2006	Maserati	GRANSPORT	Navy		1764.73	user25	1/1/2020	SUV				2	RWD					roland	10/21/2020	1492.13	C0840217146
+KSLB3XMCCOW534879	2001	Acura	CL	Orange		1748.2	user26	12/11/2020	SUV				1	4WD					user32	4/25/2021	2219.92	C2530704207
+KTIZ8OU6F5U976916	2010	Cadillac	SRX	Tan,White	front wheel drive; 	1647.53	user27	4/24/2020	SUV				2	4WD					user19	1/23/2021	2057.11	D2205967267
+KW7MS4N3N71094103	2008	Ferrari	F430	Brown	convertible; super new ignition system; 	5047.14	user25	7/9/2020	Van									0	user06	4/3/2021	6055.64	97-1463799
+KZO7LZXJXNR771606	2021	Volkswagen	TOUAREG	Navy	drive shaft; 	1655.83	user03	6/20/2020	SUV				3	RWD					user04	4/12/2021	2091.94	A1652643602
+L0FICXE1E74826637	2012	Mitsubishi	CANTER FE125	Gold	station wagon (Also known as wagon.); safe oil ring; 	1183.28	user26	6/10/2020	Car	4									user21	4/5/2021	1797.78	A5224016442
+LACZ7FVB5IL005861	2014	Jaguar	XKR	Copper	high differential; 	3936.03	user05	3/9/2020	Car	4									user21	11/7/2020	5472.03	52-9011162
+LDAX8MS7ZMA980634	2007	Ford	FREESTYLE	Beige	good piston; active safety features; 	1187.35	user05	7/6/2020	Van									1	user04	9/24/2020	2200.7	A0750292190
+LDMZ4BXPWOE239230	2010	Lotus	ELISE	Rust	safe oil ring; small spark plug gap; 	3400.69	user27	2/17/2020	Truck						2	Folding	3.5		roland	4/25/2021	3470.02	D1938774729
+LESQWAWRV7W196089	2006	Lincoln	TOWN CAR	Claret	active safety features; 	3488.19	user05	11/23/2020	Van									1	user21	12/14/2020	4156.76	C5564885117
+LH6O7CO8LIP340892	2007	Mitsubishi	FE140	Brown	ultra new transmission; oversteer; 	1163.13	user16	3/17/2021	Car	2									roland	5/29/2021	2070.94	D8282569200
+LIQR1KMIZ00707485	2010	Jeep	WRANGLER	Turquoise	high differential; rear wheel drive; best suspension; 	7265.29	user16	7/2/2021	Truck						3	Folding	0.5		user21	7/2/2021	7593.6	A2781606676
+LM8UDLK41OI479349	2004	Lotus	ESPRIT	White		5705.98	user16	11/28/2020	Van									1	user32	1/10/2021	5797.88	B6629932093
+LMLJ20KCYXP867169	2009	Buick	ALLURE	Green	automatic torque converter; high torque; 	3284.24	user27	9/8/2020	Truck						2	Snap	2.5		user04	9/24/2020	3793.23	B9153577327
+LPMORGRY77A614138	2010	smart	FORTWO	Orange	high volume cylinder; best possible traction; automatic torque converter; 	4201.18	user26	2/28/2020	Truck						3	Hinged	2					
+LQF5D64NCQ5461737	2002	Ferrari	456 M GT	Bronze,Silver	manual transmission; 	1271.26	user25	4/25/2021	Car	2									user04	6/2/2021	1403.08	D6887650752
+LRMHWLY7067260293	2002	MINI	COOPER	Bronze		2531.54	user20	4/2/2021	Convertible		3	Windblocker							user21	6/24/2021	3122.7	48-1769205
+LUKTEC25L13491705	2009	Ferrari	599 GTB	Turquoise	no redline; 	3491.52	roland	4/24/2020	Convertible		3	Tonneau cover							roland	1/20/2021	3001.35	D8269311874
+LVJGFVH42ZP066968	2008	FIAT	DUCATO	Pink	disc brake; 	1265.69	user25	10/10/2020	SUV				3	RWD					user32	1/5/2021	2078.44	C0315829968
+LVJHQ4HMJB6101871	2006	Rolls-Royce	PHANTOM	Aluminum		1706.99	user14	7/5/2020	Convertible		3	Open car and roadster										
+LW4TX2CG6JA656800	2015	Lincoln	NAVIGATOR	Green		1658.83	user11	5/23/2021	Van									0	user23	6/4/2021	1650.37	A5182568516
+M6NS6BPOK21492066	2017	Freightliner	SPRINTER 2500	Rust	drum brake; 	19728.29	user05	1/14/2020	Convertible		3	Windblocker										
+M7HJ4VAUP8V507732	2002	Rolls-Royce	CORNICHE	Pink		4840.77	user25	9/29/2020	Car	3									roland	1/14/2021	4186.59	48-1769205
+M7TYCX7AHLJ750501	2004	Cadillac	CTS	Metallic	air filtration system; original equipment manufacturer (OEM) parts; 	5272.13	user14	7/28/2020	Car	2												
+MBDGBO1V8RG307817	2009	Jeep	COMPASS	Pink		2477.55	user07	2/16/2020	Car	2									user01	5/19/2021	3463.81	D4638312523
+MD0HGAJVEW8914201	2020	Kia	SOUL	Claret	rear wheel drive; check the Monroney sticker - theer is nothing better than this vehicle; fuel injection; 	1613.53	user11	6/22/2021	Truck						3	Retractable	2.5		user19	6/24/2021	2214.74	09-3973558
+MDSNOZYL2ZL732848	2006	Subaru	OUTBACK	Tan	high differential; 	1284.63	user14	12/29/2020	SUV				1	AWD					user21	2/5/2021	1685.61	61-1100139
+MJB8QWUK0PM433047	2005	Ford	GT	Brown		1331.64	user03	5/12/2021	Car	4									user04	6/24/2021	2572.53	C8565047824
+MKNBPQIJ74V430424	2011	Jaguar	XK	Aluminum	gap; 	1812.08	user25	3/12/2021	Convertible		2	Textile							user19	6/28/2021	2160.83	A9499931848
+MO4IRL8VERY769844	2004	Lincoln	LS	Bronze	normally aspirated; 	5315.01	user11	7/23/2020	Convertible		2	Safety							user19	4/3/2021	6570.76	B8116028762
+MRL4FQOSQLE899645	2005	Chrysler	PACIFICA	Purple	best suspension; 	4255.1	user25	4/11/2020	Convertible		2	Safety							user01	5/14/2021	5368.32	C0199518923
+MRMMF0HP62P826823	2011	Dodge	CHARGER	Navy		4120.45	user16	7/11/2020	Car	3									user10	9/12/2020	5644.17	D7197177558
+MSDXHNXN7QI172357	2010	Toyota	SEQUOIA	Gold	great rpms; 	6612.01	user27	10/5/2020	Truck						4	Snap	3.5		user10	6/10/2021	7246.1	C6938144357
+N8E3SF7HL4Q053617	2013	Hyundai	SONATA	Turquoise	modern dashboard; 	1468.46	user11	6/1/2021	SUV				1	FWD					user21	7/3/2021	1616.58	64-7173397
+NA4F6S1MRA6664248	2013	Rolls-Royce	PHANTOM	Rust	original equipment manufacturer (OEM) parts; 	1706.99	user03	7/15/2020	Convertible		3	Windblocker							user06	5/31/2021	2413.82	D6534556524
+ND00P44OT6F777455	2012	Cadillac	CTS	Cream	pickup; 	5272.13	user14	1/20/2021	Convertible		3	Rear window							user04	5/7/2021	7027.79	D2507219873
+NE8WFOV66CZ904500	2008	Nissan	CABSTAR E	Claret	hatchback; 	3245.1	user18	7/7/2020	SUV				2	AWD					user01	10/5/2020	3643.56	19-3136322
+NF28EM6ENDG175285	2005	Nissan	TSURU	Cream	pickup; 	4216.82	user26	11/13/2020	Car	4									user06	12/2/2020	4054.54	D3677460785
+NGEAJQEXHL6490079	2004	Subaru	OUTBACK	Pink	disc brake; 	1284.63	user16	1/24/2020	Convertible		2	Retractable hardtop										
+NS2W7Q8QFUS135331	2012	Kia	FORTE	Rust	automatic safety features; sport utility vehicle-SUV; 	1245.26	user25	4/9/2021	Car	3									user08	5/25/2021	2411.95	C2451484744
+NSCARZ5CLLT322372	2006	SAAB	9-7X	Brown	good gear; 	4893.46	user07	10/30/2020	Convertible		2	Retractable hardtop							user21	11/26/2020	5447.97	C0550572802
+NTUHURHPI0H639059	2010	MAZDA	3 SPORT	Green	crumple zones; 	1895.81	user14	6/1/2021	Truck						3		3		user21	6/28/2021	3024.8	C6390913308
+NWVQ2W1IXSM055628	2019	INFINITI	QX70	Beige,Rose		17470.57	user14	4/21/2020	Car	2												
+O3U8PZ7LEWO313018	2012	Lincoln	MARK LT	Copper	best suspension; 	1565.57	user03	10/25/2020	Convertible		2	Retractable hardtop							user21	1/31/2021	1511.22	D7197177558
+O4SAMHWK3TM537758	2005	Freightliner	FS65	Beige	wide transaxle; convertible; 	5686.68	user03	7/20/2020	Van									0	user32	10/24/2020	5545.61	56-2291887
+O583JPNPRFJ444212	2010	Subaru	FORESTER	Brown	supernew catalytic converter; 	4410.06	user07	1/19/2020	Truck						5	Hinged	0.5		user08	3/9/2020	5817.88	B1302071867
+O60A4VOEHXR128008	2012	Lamborghini	GALLARDO	Turquoise	sturdy side impact beams; 	2743.31	user03	4/26/2020	Car	3									user21	4/15/2021	3821.41	D2440363626
+O68UZR8AH8Z844182	2012	Alfa Romeo	MITO	Black	innovative air bags; 	1446.43	user25	12/2/2020	SUV				3	AWD					user21	4/14/2021	1872.16	D3639339127
+O7G8N14WM0R109118	2007	SAAB	9-5	Purple	coupe; coupe; 	1177.06	user07	5/19/2021	Van									1	user10	6/15/2021	1521.73	C3623479361
+O8OCUJH4YMC669644	2001	Chrysler	INTREPID	Cream		4337.49	user14	4/18/2020	Car	4									user22	2/4/2021	4366.08	C8349669264
+OAFPPMDWGUH117863	2013	Alfa Romeo	MITO	Beige,Green	automatic safety features; convertible; manual transmission; 	1446.43	user16	5/1/2021	Convertible		3	Detachable hardtop							user32	7/3/2021	1395.09	B9701873535
+OBZR6DDFFCD009341	2008	Dodge	RAM 3500 TRUCK	Red	best possible traction; 	1105.09	roland	7/31/2020	SUV				2	FWD					user23	8/7/2020	1089.97	C0199518923
+ODZ0W6TMP44331893	2005	Bentley	CONTINENTAL	Gold,Orange,Pink	high quality carburetor; 	2997.73	user05	4/29/2021	Truck						3	Snap	1.5					
+OEA0E3LOO4W743479	2003	Toyota	LAND CRUISER	White		1272.6	user14	5/24/2020	Van									0	user32	9/14/2020	1304.21	C6697208198
+OFNSSWHOUJP894540	2011	Cadillac	DTS	Rose	gap; 	4707	roland	5/12/2020	Convertible		2	Detachable hardtop							user10	7/27/2020	5767.74	64-4494473
+OHCKSZQ18XX891594	2012	Mitsubishi	CANTER FG4X4	Black,Green	high torque; 	1060.62	user14	7/30/2020	Car	3									user01	3/6/2021	2191.49	B7649567338
+OLF4GTGBOPG333827	2003	Ford	E-250 ECONOLINE	Yellow	high quality carburetor; sturdy rear axle assembly; 	4190.33	user25	3/3/2021	Truck						5	Retractable	2					
+OO1YC73Q4SY467607	2009	Hyundai	VERACRUZ	Purple	high quality carburetor; active safety features; 	6060.07	user07	4/21/2021	SUV				3	FWD					user10	6/9/2021	6365.99	C4721215300
+OP7N2PZBA4C241759	2007	Buick	LACROSSE	Purple	all passive safety features; 	2668.09	user09	4/18/2021	Car	3									user04	7/2/2021	4080.71	D1263382492
+ORHEJZV7OOL232179	2006	Lotus	EXIGE	Turquoise	station wagon (Also known as wagon.); 	4789.06	user03	6/1/2021	Truck						4	Hinged	1					
+ORU7310Z7TU675976	2013	Ford	ECONOLINE VAN	Cream,Purple	front wheel drive; 	4325.62	user25	7/23/2020	Car	2									user04	8/15/2020	4357.22	B1302071867
+OVBB31XUCCJ534771	2010	Rolls-Royce	PHANTOM	Green	power train; 	1706.99	user03	2/20/2021	Car	2									user21	5/23/2021	2508.27	B3114961337
+P17AFMQE3BI177849	2013	Hyundai	SANTA FE XL	Gray	ultra new transmission; 	5763.92	user18	5/16/2020	Van									1	user19	3/23/2021	5578.85	C9468553584
+P1RZOQHCOAP558002	2009	Ford	TAURUS X	Orange	ultra new transmission; 	1575.6	user16	3/8/2020	Van									1	user01	2/19/2021	1498.04	51-3984561
+P4QVR1UU2HK859570	2013	Subaru	XV	Rose		1184.65	user20	3/13/2020	SUV				3	FWD					user21	1/15/2021	1639.29	D5515926273
+P724MZX4MT1276309	2007	Maserati	QUATTROPORTE	Cream,Turquoise	Automotive Service Excellence (ASE); 	2062.89	user09	3/1/2020	Convertible		3	Textile							user04	5/16/2021	4970.82	B1047114421
+PAUEVS4UQTM165084	2013	Audi	Q3	Aluminum,Claret	modern dashboard; 	5917.97	user03	4/12/2020	Car	3												
+PF6WY7KDOR8663002	2003	Volkswagen	GOLF	Navy	fuel injection; 	2835.33	roland	7/3/2021	Car	2												
+PHC3C1O8R1Q659241	2012	Toyota	TUNDRA	Cream	very hard struts; front wheel drive; oversteer; 	1763.04	user27	5/4/2020	Truck						2	Retractable	2.5		user32	5/25/2020	3213.94	D1263382492
+PKYOLPHA18P242940	2008	SAAB	9-5	Bronze,Navy		1177.06	user27	2/25/2021	SUV				4	AWD					user10	3/3/2021	1473.54	A7656008373
+PKZKDPC20DX722828	2006	Lotus	EXIGE	Metallic		4789.06	roland	7/7/2020	Convertible		2	Windblocker							user04	8/29/2020	5071.83	C7720975467
+PPC2Q3TT2DU845732	2009	Lotus	ELISE	Aluminum	detail; 	3400.69	user27	4/9/2020	Convertible		3	Windblocker							user22	5/28/2021	3882.63	D7871290693
+PPFD88BR0K2892279	2003	Kia	RIO	Black	hydraulic brakes; 	1324.88	user27	4/15/2020	SUV				1	AWD					user10	1/10/2021	2429.33	B0667673329
+PSTBCM0C2MV291539	2001	Buick	PARK AVENUE	Red	ultra new transmission; 	2489.11	user25	5/28/2020	SUV				1	FWD					roland	1/23/2021	2099.6	D8992895517
+PSUTDDZWZDP014734	2011	Rolls-Royce	PHANTOM	Maroon	sturdy rear axle assembly; 	1706.99	user20	6/2/2020	SUV				4	4WD					user06	8/5/2020	3005.32	A2356695475
+PTTIH4HLA8I333807	2007	Bentley	ARNAGE	Navy,Orange,Rose	rack and pinion steering; 	1085.89	roland	12/21/2020	Car	2									user19	3/29/2021	2333.2	64-7173397
+PUMDW0JUESZ514707	2008	Buick	ALLURE	Brown	sturdy rear axle assembly; broad wheelbase; 	3284.24	user18	8/2/2020	Convertible		3	Rear window							user19	8/2/2020	4242.2	B8116028762
+PW70TS0DUFN828484	2003	Mercedes-Benz	C320	Purple		1760.67	user25	1/14/2020	Car	3									user08	4/10/2020	4193.08	B7932999712
+Q04FS5KM3OG901738	2009	Maserati	QUATTROPORTE	Bronze		2062.89	user09	1/9/2021	Truck						5	Folding	1		user32	4/25/2021	3341.72	B3613796899
+Q6CNI13ED0C199030	2013	Cadillac	ATS	Claret	great rpms; 	3712.29	user20	7/23/2020	Truck						2	Electric	2.5		user23	10/28/2020	3574.51	D8119514417
+QAS5AVWTM6E601144	2001	Hyundai	TIBURON	Aluminum	station wagon (Also known as wagon.); 	3482.96	user27	6/29/2021	Truck						4	Retractable	3.5		user06	7/2/2021	3593.6	24-1651361
+QCAV3QS7EWD618783	2013	Buick	ENCORE	Brown	superturbocharger; 	2268.57	user07	4/1/2021	SUV				2	4WD					user21	6/10/2021	3193.71	B9701873535
+QCOWM4RH6IR775623	2016	BMW	428I XDRIVE GRAN COUPE	Blue	small spark plug gap; 	2282.27	user11	2/18/2021	Van									0	user19	6/19/2021	2179.81	94-2432098
+QE1021R78T0365667	2011	Audi	Q5	Green		1957.22	user05	6/18/2020	Van									0	user19	3/25/2021	2508.82	D9868570966
+QI80NK13N12893077	2010	Ram	DAKOTA	Bronze	drum brake; 	2960.28	user25	2/13/2021	SUV				1	FWD					user23	6/28/2021	4000.93	A7135730876
+QISITLRQ5WH413699	2009	Hyundai	GENESIS	Orange	sturdy rear axle assembly; 	1291.85	user16	2/19/2021	Car	2									user19	6/10/2021	1643.88	D0369069698
+QJSZBIU41RZ000557	2005	Freightliner	BUSINESS CLASS M2	Cream	good gear; 	1966.73	user09	6/2/2021	Van									0	user06	6/12/2021	2578.44	87-8049695
+QN388KU6HTL416435	2019	Tesla	S	Gold	ultra new transmission; unibody construction; 	2654.48	user16	5/10/2020	Convertible		3	Windblocker							user32	3/17/2021	3802.49	B3560453812
+QT6DE3TU16Q738364	2011	Lincoln	MARK LT	Blue,Copper	Automotive Service Excellence (ASE); hydraulic brakes; 	1565.57	user11	12/16/2020	Car	4												
+QWW8Y55NYTR063884	2015	Tesla	X	Beige,Brown,Turquoise		1721.59	user07	11/24/2020	Car	4									user10	3/31/2021	2276.62	D3677460785
+QWYEUSHQPNE215410	2010	INFINITI	QX56	Purple	sturdy rear axle assembly; hatchback; 	4488.9	user26	7/2/2020	Van									0	user04	7/3/2020	5095.28	13-6202155
+R3YIF8UZ4P1070425	2010	Chrysler	CIRRUS	Beige	best possible traction; 	2500	user25	1/10/2020	SUV				4	FWD					user21	2/19/2020	3561.35	B9153577327
+R4EQ76G1HHV776360	2005	Ford	COURIER	Turquoise	great rpms; 	1212.87	user09	2/2/2021	Truck						3	Tool Box	1.5		user23	5/20/2021	1440.26	D2507219873
+R60F6EU85VY130194	2004	Buick	LESABRE	Copper	wide cam; good gear; 	4802.64	user05	6/1/2021	Car	4									user23	6/22/2021	4794.42	A2781606676
+R72N7L114R7898065	2009	Cadillac	STS	Turquoise	super new ignition system; 	1889.82	user25	1/7/2021	Convertible		3	Windblocker							user21	3/17/2021	2195.71	07-6913915
+R8UHBMX4TQI234223	2012	Ram	RAM	Pink		4324.44	user16	3/7/2020	SUV				1	RWD					user06	9/8/2020	6588.69	C7720975467
+RAGZ5GF7O8T913064	2013	MAZDA	MX-5 MIATA	Tan	automatic torque converter; anti-lock brake system (ABS); 	1964.74	user09	6/2/2021	Van									1	user04	6/5/2021	4320.27	38-5109013
+RCWIFAWFT3E015306	2003	GMC	C5500 TOPKICK	Copper	active safety features; 	1224.71	user09	6/16/2020	Truck						4		3.5		user04	8/18/2020	1766.93	B3114961337
+RF2BB0LOILQ809554	2009	INFINITI	G37	Orange	best suspension; 	2810.44	user05	1/23/2020	Car	3									user21	5/15/2021	3026	C2673914348
+RHVJT3TXHWL819894	2008	Rolls-Royce	PHANTOM	Black	high differential; 	1706.99	user27	11/6/2020	SUV				4	4WD					user01	12/13/2020	2045.02	52-9011162
+RLXG5XQRAQ3165459	2007	Nissan	TITAN	Black	hydraulic brakes; 	1175.9	user26	1/25/2020	Convertible		2	Rear window							user06	4/15/2020	1886.17	45-6711652
+RMRQFRIEC25214612	2004	Cadillac	ESCALADE ESV	Claret	Automotive Service Excellence (ASE); 	2225.91	user07	2/7/2020	Car	2												
+RMX0AE4LYYW896673	2019	smart	FORTWO	Purple	autotachometer; 	4201.18	user09	3/7/2020	Convertible		3	Tonneau cover							user08	8/5/2020	4049.93	C3623479361
+RNH1F5LU2AW886758	2004	Hyundai	ACCENT	Turquoise	fuel injection; front axle assembly; 	4873.55	user16	4/18/2020	SUV				4	FWD								
+RU32GUAPYSR767349	2013	Alfa Romeo	MITO	Claret	front wheel drive; 	4593.86	user07	10/25/2020	Truck						2	Hinged	2		user06	10/27/2020	5683.23	47-6473901
+S0IF4QEGMQI832765	2003	Mitsubishi	MONTERO	Navy	pickup; 	1026.96	user05	8/6/2020	SUV				4	RWD					user08	2/12/2021	2719.94	A1919786459
+S2N3CMXWZPV810214	2009	BMW	X5	Brown	safe oil ring; 	2051	user20	6/1/2021	SUV				3	AWD					user04	6/16/2021	2027.99	B3135098307
+S4TI4IX70JJ322540	2012	MINI	COOPER	Navy	wide chassis; 	2531.54	user14	6/28/2021	Van									0	user23	6/29/2021	3636.28	97-1463799
+S5263SMBZPG600452	2004	Jeep	TJ	Pink	great engine; 	3089.32	user20	1/3/2020	Convertible		2	Retractable hardtop							user08	3/19/2021	3764.38	52-9011162
+S5MQN63PZL6857813	2004	Freightliner	CORONADO	Rose	coupe; 	14427.84	user14	1/16/2021	Convertible		3	Windblocker							user21	3/20/2021	15595.73	D4638312523
+SC4XXMXCD3O314777	2007	Jeep	PATRIOT	Brown	no understeer; 	1501.48	user20	9/19/2020	Van									0	user06	11/7/2020	1894.68	48-1769205
+SDBQO6SS2H8788376	2008	Acura	CSX	White	great rpms; can be used as sports car; 	1291.57	user20	3/9/2021	Car	3									user04	6/9/2021	2693.52	C2665896847
+SHN7X1KFP65647255	2010	Hyundai	VERACRUZ	Navy,Yellow	manual transmission; 	2784.96	user07	11/3/2020	Van									0	user21	11/23/2020	3006.81	B1905472111
+SLW1XG4GWUM246789	2007	Dodge	RAM 3500	Bronze,Purple,White	ultra new transmission; sport utility vehicle-SUV; strong muffler; 	2773.96	user14	11/13/2020	Car	4									user10	4/2/2021	3955.52	B4329886405
+SSK6RJETTAY507275	2012	Volvo	C70	Navy	automatic safety features; good piston; rack and pinion steering; 	1316.1	user20	1/22/2020	SUV				3	FWD					user19	2/15/2020	2431.63	A8857026223
+SSS7P1GXYA6831681	2013	Rolls-Royce	GHOST	Claret		3972.65	user20	5/5/2021	SUV				4	RWD					user04	6/10/2021	4448.54	D8406096764
+SYK3OZKA6FN066098	2010	Subaru	TRIBECA	Black	super new ignition system; 	9551.86	user05	3/13/2021	SUV				4	AWD					user01	3/17/2021	10119.4	B6629932093
+T0QADA6YOL4031160	2007	MAZDA	MX-5 MIATA	Purple	sport utility vehicle-SUV; 	5065.48	user03	6/12/2021	Truck						4	Roll-Up/Rolling	2					
+T24YYPUH8J8042832	2006	Hyundai	AZERA	Copper	rear wheel drive; automatic safety features; 	7974.91	user07	3/31/2021	Truck						5	Retractable	2					
+T3LJKVCQKWT790170	2010	Aston Martin	DBS	Pink	gap; high quality carburetor; 	10932.21	user03	12/20/2020	Car	4									user21	6/21/2021	11529.33	64-7173397
+TEYEM2FW6ZU902939	2004	Cadillac	ESCALADE EXT	Black	superturbocharger; 	2165.35	user14	6/11/2021	Car	2									user22	6/11/2021	3765.44	A3642699140
+TFRBNINRQHD994300	2007	Toyota	YARIS	Claret	power train; 	5584.54	user14	4/19/2020	Van									0	user32	3/25/2021	6018.3	A0965866036
+TGKSWOGJI2H650745	2002	Lotus	ESPRIT	Beige	super new ignition system; 	3135.15	user03	1/27/2020	Van									1				
+TIGCC0J14W1049941	2020	Ford	C-MAX	Copper	innovative air bags; 	3239.11	user20	6/3/2020	Van									1	user06	9/2/2020	3247.17	D7871290693
+TL4REEE1KVU236686	2013	Lincoln	MKS	White	automatic valves; 	1102.12	user27	8/8/2020	Car	3												
+TN71ZRAXPD7832958	2008	Alfa Romeo	8C	Aluminum,Purple,Tan	wide chassis; 	1213.13	user27	5/7/2020	Convertible		2	Tonneau cover							user19	6/16/2021	1776.5	51-3984561
+TO6RWDMW814286852	2012	McLaren	MP4-12C	Black	automatic torque converter; no understeer; 	5855.6	roland	1/18/2020	Truck						5	Roll-Up/Rolling	1		user01	1/19/2021	7114.54	A5182568516
+TOHM82154DP914803	2012	GMC	YUKON XL 2500	Tan	gap; Automotive Service Excellence (ASE); 	3990.14	user26	3/21/2021	SUV				3	RWD					user06	4/22/2021	4290.21	D8053038202
+TPWVCLGW5SF975070	2018	Porsche	PANAMERA	Turquoise	overdrive; 	8939.26	user09	6/18/2021	Truck						5	Electric	4		user10	6/30/2021	8965.22	B9986557803
+TVKSQ24CI8Q683260	2012	McLaren	MP4-12C	Copper,Purple	modern dashboard; 	2758.95	user25	5/29/2021	Car	2									roland	7/2/2021	2260.78	A2356695475
+TY6ELGLPBTV020931	2010	Maserati	QUATTROPORTE	Bronze	engine displacement; 	2062.89	user27	6/30/2020	Convertible		3	Textile							roland	7/18/2020	2136.25	C7405915994
+U2XIPWQ4U2Q518809	2005	Mercedes-Benz	SLR MCLAREN	Red	anti-lock brake system (ABS); 	4245.12	user14	4/9/2020	Car	4									user23	12/5/2020	4142.67	B2391029488
+U3Q7P5C8GZP868702	2012	Nissan	370Z	Black,Navy	automatic safety features; 	1863.84	user03	1/12/2021	SUV				4	AWD					user10	6/11/2021	2506.32	A7394786391
+U3Z8TODSG28826809	2011	Freightliner	BUSINESS CLASS M2	Blue	wide cam; convertible; check the Monroney sticker - theer is nothing better than this vehicle; 	1966.73	user05	2/20/2021	SUV				4	AWD					user08	2/27/2021	3254.58	13-6202155
+U630YUK0F2X877887	2013	Jaguar	XFR-S	Turquoise	hatchback; wide chassis; 	1988.06	user07	6/28/2020	Convertible		3	Retractable hardtop							user32	1/3/2021	2123.99	A9499931848
+UB0FCRJ4Q31126837	2002	Jaguar	XKR	Maroon		3936.03	user26	6/16/2021	SUV				2	4WD					roland	7/2/2021	4022.32	D0985294389
+UBR5KSD76ZB411512	2008	Land Rover	LR3	Silver		2429.96	user11	12/15/2020	Truck						4	Folding	3		user08	6/11/2021	2765.67	D0369069698
+UDGMKMHR25C842616	2012	Lexus	HS250H	Navy		2876	roland	12/12/2020	Car	4									user06	5/5/2021	3711.22	A2781606676
+UE021615KMB218122	2007	Land Rover	RANGE ROVER SPORT	Copper	very hard struts; best radiator; 	1528.68	user18	6/21/2021	Convertible		2	Tonneau cover							user06	6/29/2021	2107.39	A8857026223
+UEJUQU101MB418637	2009	Volvo	XC90	Navy	front axle assembly; normally aspirated; 	3001.54	user11	7/29/2020	Convertible		3	Textile							user06	11/27/2020	3282.07	42-4075529
+UF6A7D3BENH287178	2017	Tesla	S	Black	minivan; safe oil ring; 	4688.88	user14	3/23/2021	Truck						3	Roll-Up/Rolling	3.5					
+UFZBV43FAC2764534	2008	Lamborghini	GALLARDO	Brown	broad wheelbase; 	2743.31	roland	4/27/2020	Van									1	user06	5/11/2020	3064.2	C5232024518
+UHC76PD8DA6169438	2010	Land Rover	RANGE ROVER SPORT	Blue	sturdy rear axle assembly; coupe; 	2223.32	user20	7/12/2020	Van									1	user06	11/29/2020	2960.13	C6697208198
+UHR044A6RAT399029	2021	Freightliner	CASCADIA	Brown,Cream,Silver	front wheel drive; 	7788.24	user07	7/16/2020	SUV				3	RWD					user06	2/18/2021	7783.9	37-8167653
+UM0NVYDRPNQ372679	2001	Lamborghini	DIABLO	Beige	Automotive Service Excellence (ASE); 	5138.38	user09	6/21/2021	Van									0				
+UNHJCJVVT0L007357	2012	Lincoln	MKZ	Claret,Green	air filtration system; 	1131.87	user18	1/17/2020	SUV				1	AWD					user23	4/1/2021	1308.35	B4329886405
+URGQRLDWJAO598363	2001	Freightliner	FC80	Beige	broad wheelbase; 	2168.4	user27	11/29/2020	SUV				4	AWD					user22	2/10/2021	2543.6	A9501753054
+URH3DGEQQ7S513356	2008	Audi	A3 QUATTRO	Maroon	broad wheelbase; broad wheelbase; 	3939	user05	5/11/2020	Truck						2		3		user32	10/7/2020	4106.11	B8118245955
+UUPC35QW7DS635068	2008	BMW	R1200GS	Red	automatic torque converter; 	4680.56	user07	7/8/2020	SUV				1	4WD								
+V34AR0KQFXB030143	2006	Volvo	S80	White		2654.27	user20	7/3/2020	Van									1				
+V5NULLM2X1M103960	2021	Lamborghini	AVENTADOR	Claret		11058.52	roland	7/15/2020	Truck						3	Snap	2		user06	10/23/2020	11358.79	34-1167025
+V7RRXZF3UDD625897	2017	McLaren	MP4-12C	Claret	high quality carburetor; 	2758.95	user27	2/15/2021	SUV				3	RWD					user19	3/17/2021	3285.6	C2486363271
+VGE7R67HBNW773708	2002	Audi	S8	White	best sedan; sturdy side impact beams; 	4190.23	user09	5/16/2021	Convertible		2	Safety							user10	6/14/2021	5324.57	C5820441797
+VHN8VKHSZSO282046	2012	McLaren	MP4-12C	Pink,Rust	automatic torque converter; active safety features; ultra new transmission; 	2758.95	user26	4/23/2021	Car	4									user01	5/22/2021	2810.17	B9479074244
+VLRKLTIXYIZ273737	2015	Tesla	X	Beige	wide chassis; very hard struts; 	1721.59	user14	3/26/2021	SUV				3	4WD					user01	6/8/2021	1997.98	A0750292190
+VOO8ABE46Z0963128	2009	Kia	RONDO	Green	high quality carburetor; 	2364.08	user07	6/17/2021	SUV				1	RWD					user01	6/17/2021	3399.73	B2503869534
+VOQ56SWYWJB706872	2005	smart	CABRIO	Black,Green	engine displacement; 	1057.12	user11	4/9/2020	SUV				1	FWD					user08	3/9/2021	1686.13	B9153577327
+VU1M5IDDL6S091256	2002	Lotus	ESPRIT	Tan		3135.15	user16	5/30/2020	Convertible		3	Retractable hardtop							roland	8/11/2020	3969.35	B0529778191
+VX1PVFHZBMX335341	2016	BMW	550I	Claret,Gray		1209.29	user05	1/17/2020	Convertible		2	Open car and roadster							user01	11/10/2020	1759.23	D7871290693
+W1RYVGXFD68971984	2012	Chrysler	TOWN & COUNTRY	Pink	great rpms; 	3972.5	user16	5/6/2020	SUV				3	AWD					user19	3/15/2021	4405.62	B3114961337
+W2VUHN4XNA2086153	2006	MAZDA	MX-5 MIATA	Orange	air filtration system; small spark plug gap; hatchback; 	1964.74	user18	4/9/2020	SUV				4	4WD								
+WAKUE2I52W0243711	2006	Subaru	BAJA	White		3998.31	user16	5/19/2020	Truck						5	Hinged	0.5		user23	5/27/2021	5168.62	D9622429189
+WIXBCOXFFO3054405	2009	Ferrari	CALIFORNIA	Beige,Rust,Tan	modern dashboard; 	2482.68	user07	3/19/2021	Car	4												
+WO62TPHPUNV545044	2007	Mercedes-Benz	SL550	Turquoise	drive shaft; 	4563.49	user03	1/4/2020	Truck						4	Electric	2.5		user22	12/12/2020	4993.56	B2456071697
+WQBEI8L8OTJ787811	2014	Alfa Romeo	4C	Orange,Turquoise	convertible; 	3543.33	user03	9/8/2020	Van									0	user08	10/19/2020	3412.14	A7135730876
+WRJTUEFBEKL053792	2018	Subaru	WRX	Rose	Automotive Service Excellence (ASE); 	14079.22	user16	9/24/2020	Truck						3	Roll-Up/Rolling	3		user21	9/26/2020	14200.51	C8487820691
+WW18EWD32UW766155	2011	Porsche	BOXSTER	Copper		3077.71	user26	9/2/2020	SUV				1	RWD								
+WXXT4CJXT8X866335	2019	Land Rover	RANGE ROVER EVOQUE	Gray	check the Monroney sticker - theer is nothing better than this vehicle; 	2089.91	user25	11/22/2020	Car	4									user19	3/18/2021	3668.54	A3410814072
+WZLYDQJPVXX172107	2010	Rolls-Royce	GHOST	Claret	safe oil ring; gap; supernew catalytic converter; 	3972.65	user27	11/17/2020	Car	3									user10	7/3/2021	5045.01	61-1100139
+X20OKJA25ZI851267	2010	Ferrari	612 SCAGLIETTI	Red	great engine; power train; 	2452.04	user11	11/16/2020	SUV				3	RWD					user32	6/27/2021	3351.28	24-1651361
+X7WRF6GJKRO032058	2001	Acura	CL	Yellow	very hard struts; 	1748.2	user18	1/28/2020	Car	3									roland	7/11/2020	2251.08	A9501753054
+XFN55MCIYNY954918	2006	Jaguar	XJR	Orange,Red,White	small spark plug gap; high differential; sport utility vehicle-SUV; 	3804.27	user26	12/13/2020	Truck						2	Retractable	3.5		user10	1/14/2021	4216.01	B8426722523
+XG6TUSMRKJ7859790	2009	Mercedes-Benz	S550	Rose	good gear; no understeer; 	2080.07	user09	11/20/2020	SUV				3	RWD					user06	3/9/2021	2742.24	D1203722082
+XKOR6FN4NB0771721	2017	Land Rover	DISCOVERY	Gray	can be used as sports car; 	5218.62	user25	1/24/2020	Convertible		2	Retractable hardtop							user22	9/28/2020	5739.49	C7966010586
+XLE7HGMPN41742434	2011	MINI	COOPER	Black,Blue,Cream	no understeer; 	2531.54	user26	10/11/2020	Van									1	user01	12/22/2020	3795.24	24-1651361
+XNCXSM3JPVX095298	2020	Audi	ALLROAD	Beige		1251.22	user26	4/2/2020	Van									1	roland	11/15/2020	1411.23	A1652643602
+XQN1UDCTS1L283228	2013	Tesla	S	Rust	high differential; 	2654.48	user20	1/5/2020	SUV				3	4WD								
+XTL7REP4G5A986109	2006	Jaguar	XJ8	Pink,Rust,Silver	crankcase; gap; sturdy side impact beams; 	4101.38	user14	3/22/2021	Truck						3	Tool Box	2.5					
+XW26GD4VYPB194891	2005	MINI	COOPER	White		2531.54	user03	7/8/2020	Van									1	user06	8/11/2020	3388.74	A6107738399
+XZH6HV3YNEO902234	2008	Dodge	ATOS	Maroon	gap; station wagon (Also known as wagon.); 	1900.49	user16	12/11/2020	Convertible		2	Textile							user23	2/13/2021	3154.05	A1652643602
+Y3YFDYEUPJ2715198	2005	Lamborghini	MURCIELAGO	Blue	drive shaft; no understeer; 	3704.7	user03	8/30/2020	Van									0	user19	6/21/2021	4809.52	C7966010586
+Y80MGSI0T6F866229	2011	Honda	CBR1000RR ABS	Turquoise	great engine; 	1742.76	user16	11/21/2020	Car	4									user21	6/2/2021	2751.04	B9986557803
+Y8C5IT8AQ05184927	2010	Cadillac	DTS	Black	sturdy side impact beams; 	4707	user26	6/9/2021	Truck						4	Snap	2.5		user08	6/11/2021	5473.91	D1263382492
+Y8H36PV2KE7172895	2005	Kia	AMANTI	Bronze,Metallic,Rose	fuel injection; 	5733.81	roland	1/21/2021	SUV				3	AWD								
+Y8Z0KNDQWL2566444	2008	Mitsubishi	FE125	Purple	wide transaxle; high torque; front wheel drive; 	1104.39	user11	5/16/2020	Van									0	user10	7/6/2020	1835.07	A2150826458
+YAZCSXVG8FR318362	2004	Maserati	COUPE	Black	overdrive; small spark plug gap; all passive safety features; 	7694.5	user20	9/19/2020	SUV				4	RWD					user01	10/7/2020	7315.16	D5106706321
+YBD4KM44KTR488107	2001	Lamborghini	DIABLO	Purple		5138.38	user25	8/2/2020	Van									1				
+YDUVE4Y7TY7392605	2007	Rolls-Royce	PHANTOM	Blue,Green	superturbocharger; 	1706.99	user11	8/4/2020	Car	2									user10	12/27/2020	2555.99	D6887650752
+YH26TJ504TO241467	2013	INFINITI	FX50	Orange		1565.41	user09	8/18/2020	Car	2									user32	2/17/2021	1693.22	B9153577327
+YHXRVAZZU61082434	2007	Land Rover	LR3	Orange		2429.96	user25	4/22/2020	SUV				2	AWD					user32	6/8/2021	3142.48	D0369069698
+YJ3Y7H3KJRI908228	2007	Lotus	EXIGE	Rose	front axle assembly; 	4789.06	user14	11/25/2020	SUV				3	4WD					roland	6/14/2021	4481.18	A0923389692
+YK5IEXQC53O490199	2021	Tesla	S	Blue	original equipment manufacturer (OEM) parts; 	2654.48	user16	12/7/2020	Car	3									user19	6/1/2021	3446.55	09-3973558
+YOFF7JGYY7O418558	2008	Acura	MDX	Navy	autotachometer; 	3010.32	user11	4/28/2021	SUV				1	RWD					user21	7/1/2021	3400.79	A7336665337
+YQKTZSBESHS704350	2008	Lexus	GS350	Copper	safe oil ring; ultra new transmission; 	1806.57	user25	3/17/2021	Van									1	user22	6/1/2021	2525.97	B5647927687
+YR0BYZ2LKGR405349	2011	Kia	SEDONA	Tan	high block; 	3915.86	roland	2/13/2020	Van									0	user08	9/18/2020	5532.68	47-6473901
+YVB5QZPUU4J557508	2006	Porsche	CAYMAN	Gray	supernew catalytic converter; best possible traction; 	6186.1	user14	4/3/2020	Convertible		3	Safety							roland	6/28/2021	6363.72	C8180681803
+YVCC3OMTRFN440424	2008	Dodge	CALIBER	Rose	best possible traction; rack and pinion steering; 	2029.62	user25	12/30/2020	Van									0	user04	1/10/2021	3467.11	64-7173397
+YW0NB0HVBXQ136944	2004	Ford	E-250	Navy	active safety features; manual transmission; 	2228.48	user03	2/28/2020	Convertible		2	Textile							user08	3/14/2021	2482.43	97-1463799
+YXGLZG8ECDM958701	2006	Bentley	AZURE	Cream	power train; supernew catalytic converter; overdrive; 	1136.21	user26	5/19/2021	Truck						5	Retractable	0.5		user10	5/26/2021	1676.8	D1938774729
+YY8OSRCI6X0011928	2013	Alfa Romeo	GIULIETTA	Copper	superturbocharger; 	2956.84	user25	2/6/2020	Van									1	user10	3/26/2021	3223.71	B3135098307
+YYD1IOVV8LV476788	2010	Volkswagen	GOLF CITY	Copper,Maroon	best suspension; 	3598.04	user03	8/31/2020	Van									0	user19	8/31/2020	4481.04	B3560453812
+Z0A37CJ5Q6J159776	2007	Aston Martin	DB9	Copper	no redline; 	1334.85	user03	7/1/2021	SUV				3	AWD					user08	7/3/2021	2283.42	B7250129830
+Z1ASPSHALNI992893	2004	Nissan	TITAN	Yellow		1175.9	user26	1/7/2020	Convertible		2	Tonneau cover							user23	6/10/2020	3079.19	B8560719297
+Z1MBS0LZ6BU099956	2011	Volvo	XC70	Aluminum	disc brake; automatic transmission; 	3369.1	user03	2/23/2021	Car	3									user10	3/1/2021	3817.03	D0328630274
+Z2RRAJH2X3J850942	2013	Mitsubishi	OUTLANDER SPORT	Purple	detail; 	3255.91	user05	6/27/2020	Truck						5	Roll-Up/Rolling	1.5		user32	12/3/2020	3590.78	A2781606676
+Z3BUCA4HE1G243690	2003	Dodge	STRATUS	Copper,Gray,Navy	four-wheel drive; 	1148.67	user11	4/26/2020	Truck						4	Electric	0.5		user10	6/18/2021	1511	42-4075529
+Z7VWWWNUAXQ698054	2002	Audi	A6	Blue,Brown,Silver	four-wheel drive; 	1754.25	user27	6/18/2021	SUV				1	RWD					user01	6/22/2021	1953.94	C2486363271
+ZAZZSPQY2MF351571	2008	Mitsubishi	FM330	Black	wide cam; detail; 	3152.11	user16	6/15/2020	Car	3									user01	11/23/2020	5853.75	B1302071867
+ZBJWXVPPM7K107746	2006	SAAB	9-5	Silver	no backfire/backfiring; oversteer; 	1177.06	user05	10/23/2020	Truck						5	Roll-Up/Rolling	0.5		roland	12/10/2020	972.23	B0529778191
+ZBPE1C11UOK224003	2001	Chrysler	PROWLER	Red	superturbocharger; ultra new transmission; 	2950	user09	6/19/2020	Truck						3	Roll-Up/Rolling	0.5		user08	4/26/2021	4080.87	A0301796521
+ZJ5FW1Z062W312587	2007	GMC	SIERRA 2500 HD	Black	drum brake; 	2986.48	user11	10/4/2020	Car	4												
+ZMFC1QCDIBE228233	2020	McLaren	P1	Red		1024.25	user11	2/7/2020	Car	4												
+ZSQLODTR32F951695	2021	Subaru	IMPREZA	Black	rear wheel drive; 	2071.43	user25	1/21/2021	Truck						4	Retractable	3		user21	5/28/2021	2772.56	D5515926273
+ZUH3A73K7QN853290	2006	Freightliner	CLASSIC	Silver	drum brake; 	1278.37	user11	3/10/2021	Convertible		3	Retractable hardtop							user22	3/23/2021	1274.65	D8992895517
+ZUWIG7658G1890179	2009	Rolls-Royce	PHANTOM	Green		1706.99	user11	10/22/2020	Convertible		2	Windblocker							user32	2/8/2021	1728.44	B2456071697
+ZX50RRJVFCP539257	2006	SAAB	9-2X	Pink		1822.31	user05	6/1/2020	SUV				4	FWD					user23	2/20/2021	2051.9	B2391029488
+ZZCURK8V4CR757611	2009	Jaguar	SUPER V8	Aluminum	drum brake; 	1377.75	user18	5/12/2021	SUV				4	FWD					roland	5/31/2021	1968.33	C2477021110

@@ -1,0 +1,37 @@
+version: '3'
+services:
+  jjapp:
+    build: .
+    restart: always
+    ports:
+      - "8001:8001"
+    volumes:
+      - .:/app
+    depends_on:
+      - jjdb
+    container_name: jaunty_jalopies_app
+    environment:
+      DEBUG: 'true'
+      DB_HOST: 'jjdb'
+      DB_USER: 'postgres'
+      DB_PASS: 'postgres'
+      SECRET_KEY: 'super_secret_2.0'
+      # If line below is commented, the DB will reset every time
+      # the docker container starts
+      # RESET_DB: 'false'
+    stdin_open: true
+    tty: true
+
+  jjdb:
+    image: postgres
+    container_name: jaunty_jalopies_db
+    # command: postgres -c log_statement=all
+    volumes:
+      - database:/var/lib/postgresql
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - "5433:5432"
+
+volumes:
+  database:

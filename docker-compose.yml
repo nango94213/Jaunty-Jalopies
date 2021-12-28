@@ -16,6 +16,8 @@ services:
       DB_USER: 'postgres'
       DB_PASS: 'postgres'
       SECRET_KEY: 'super_secret_2.0'
+      # Comment out below line if small data set desired
+      SOURCE_DATA: 'demo_data'
       # If line below is commented, the DB will reset every time
       # the docker container starts
       # RESET_DB: 'false'
@@ -25,13 +27,11 @@ services:
   jjdb:
     image: postgres
     container_name: jaunty_jalopies_db
-    # command: postgres -c log_statement=all
+    command: postgres -c log_statement=all
     volumes:
-      - database:/var/lib/postgresql
+      # This will add volume outside project
+      - ../dbs/jjapp/data:/var/lib/postgresql/data
     environment:
       - POSTGRES_HOST_AUTH_METHOD=trust
     ports:
       - "5433:5432"
-
-volumes:
-  database:

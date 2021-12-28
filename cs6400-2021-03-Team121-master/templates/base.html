@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}" />
+        <title>{{title}}</title>                
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Search</a>
+                </li>
+                {% if 'user' in session %}               
+                    <li class="nav-item">
+                        <a style="color: darkcyan;" class="nav-link" href="/logout"> logout </a>
+                    </li>           
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Login</a>
+                    </li>       
+                {% endif %}
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <h1 class="mainTitle">Jaunty Jalopies</h1>
+            </ul>
+        </div>
+    </nav>    
+    <div id="my-custom-container-fluid" class="container-fluid">      
+        {% block content %}
+        {% endblock %}
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category,message in messages %}
+                <div class="alert alert-{{category}}" role="alert">
+                    {{ message }}
+                </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
+
+    <script type="text/javascript" src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+
+</body>
+</html>

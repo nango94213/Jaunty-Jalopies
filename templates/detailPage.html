@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container mw-100">
+  <div class="row">
+    <div class="col align-self-start col-12 col-xl-12">
+    <div class="mx-auto col-12 col-xl-12">
+      <div class="table-responsive-sm table-hover">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">VIN</th>
+              <th scope="col">Description</th>
+              {% if ('user_info' in session) and (session['user_info']['role'] in ['inventory_clerk', 'owner']) %}
+                <th scope="col">Invoice Price</th>
+              {% endif %}
+              <th scope="col">Vehicle Type</th>
+              <th scope="col">Model Year</th>
+              <th scope="col">Model</th>
+              <th scope="col">Manufacturer</th>
+              <th scope="col">Color(s)</th>
+              <th scope="col" class="text-right">List Price</th>
+              <th scope="col" class="text-center">Vehicle Attributes</th>
+              {% if ('user_info' in session) and (session['user_info']['role'] in ['sales_person', 'owner']) %}
+                <th scope="col">Ready, set ...</th>
+              {% endif %}
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">{{vehicle.vin}}</th>
+              <td>{{vehicle.description}}</td>
+              {% if ('user_info' in session) and (session['user_info']['role'] in ['inventory_clerk', 'owner']) %}
+                <td>{{vehicle.invoice_price}}</td>
+              {% endif %}
+              <td>{{vehicle.type}}</td>
+              <td>{{vehicle.model_year}}</td>
+              <td>{{vehicle.model_name}}</td>
+              <td>{{vehicle.manufacturer}}</td>
+              <td>{{vehicle.colors}}</td>
+              <td class="text-right">{{vehicle.list_price}}</td>
+              <td>{{vehicle.attrs}}</td>
+              {% if ('user_info' in session) and (session['user_info']['role'] in ['sales_person', 'owner']) %}
+                <form action="/sell" method="post"> 
+                  <div class="form-group d-none d-print-none">
+                    <input class="form-control " id="vin_" name="vin" value="{{vehicle.vin}}"/>
+                    <input class="form-control " id="description_" name="description" value="{{vehicle.description}}"/>
+                    <input class="form-control " id="invoicePrice_" name="invoicePrice" value="{{vehicle.invoice_price}}"/>
+                    <input class="form-control " id="listPrice_" name="listPrice" value="{{vehicle.list_price}}"/>
+                    <input class="form-control " id="colors_" name="colors" value="{{vehicle.colors}}"/>
+                    <input class="form-control " id="vehicleType_" name="vehicleType" value="{{vehicle.type}}"/>
+                    <input class="form-control " id="target_" name="target" value="find_customer"/>
+                  </div>
+                  <td>
+                    <button type="submit" class="btn btn-success btn-block btn-sm font-italic font-weight-bold">$ Sell $</button>
+                  </td>
+                </form>
+              {% endif %}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% if ('user_info' in session) and (session['user_info']['role'] in ['manager', 'owner']) %}
+      <div class="col-12 col-xl-4">
+        <div class="col-12 col-xl-12">
+          <h2>Inventory Details</h2>
+        </div>
+        <div class="table-responsive-sm table-hover">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Inv. Clerk</th>
+                <th scope="col" class="text-right">Invoice Price</th>
+                <th scope="col">Date Added</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{vehicle.inventory_clerk}}</td>
+                <td class="text-right">{{vehicle.invoice_price}}</td>
+                <td>{{vehicle.date_added}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {% if 'sold' in vehicle %}
+        <div class="col-12 col-xl-12">
+          <div class="col-12 col-xl-12">
+            <h2>Sale Details</h2>
+          </div>
+          <div class="table-responsive-sm table-hover">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col-2" class="text-right">List Price</th>
+                  <th scope="col-2" class="text-right">Sold Price</th>
+                  <th scope="col-2">Sale Date</th>
+                  <th scope="col-2">Sale Person</th>
+                  <th scope="col">Buyer's Contact Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-right">{{vehicle.list_price}}</td>
+                  <td class="text-right">{{vehicle.sold_price}}</td>
+                  <td>{{vehicle.sale_date}}</td>
+                  <td>{{vehicle.sale_person}}</td>
+                  <td>{{vehicle.buyer_info}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      {% else %}
+        <div class="col-12 col-xl-4">
+          <div class="alert alert-warning" role="alert">
+            Car still in inventory.
+          </div> 
+        </div>
+      {% endif %}
+      {% if 'repaired' in vehicle %}
+        <div class="col-12 col-xl-9">
+          <div class="col-12 col-xl-12">
+            <h2>Repairs Details</h2>
+          </div>
+          <div class="table-responsive-sm table-hover">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Customer Name</th>
+                  <th scope="col">Service Writer</th>
+                  <th scope="col">Repair Start Date</th>
+                  <th scope="col">Repair End Date</th>
+                  <th scope="col" class="text-right">Labor Charges</th>
+                  <th scope="col" class="text-right">Parts Cost</th>
+                  <th scope="col" class="text-right">Total Cost</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{{vehicle.customer_name}}</td>
+                  <td>{{vehicle.service_writer}}</td>
+                  <td>{{vehicle.repair_start_date}}</td>
+                  <td class="{{vehicle.colored_class}}">{{vehicle.repair_end_date}}</td>
+                  <td class="text-right {{vehicle.colored_class}}">{{vehicle.labor_charges}}</td>
+                  <td class="text-right">{{vehicle.parts_cost}}</td>
+                  <td class="text-right">{{vehicle.total_cost}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      {% else %}
+        <div class="col-12 col-xl-4">
+          <div class="alert alert-success" role="alert">
+            No repairs have been made to this car.
+          </div>
+        </div>
+      {% endif %}
+
+    {% endif %}
+  </div>
+</div>
+
+{% endblock %}

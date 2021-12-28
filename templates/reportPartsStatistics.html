@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+    <div class="mx-auto col-12 col-xl-4">
+        <h1 class="justify-content-center">{{data['title']}}</h1>
+    </div>
+    <div class="mx-auto col-12 col-xl-12"></div>
+    <div class="mx-auto col-12 col-xl-4">
+        <div class="table-responsive-sm table-hover">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Vendor's Name</th>
+                <th scope="col" class="text-right">Qty Parts Supplied</th>
+                <th scope="col" class="text-right">Total Spent($)</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for vendor in data['vendors'] %}
+                <tr>
+                    <td>{{ vendor['vendorname'] }}</td>
+                    <td class="text-right text-dark">{{ vendor['qty'] }}</td>
+                    <td class="text-right text-dark">$ {{ vendor['dollar_amount'] }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
